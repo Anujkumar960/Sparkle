@@ -1,0 +1,19 @@
+GET http://localhost:4000 
+###
+POST http://localhost:4000/register
+Content-Type: application/json
+
+{
+    "email":"anuj822@gmail.com",
+    "password":"Admin@123",
+    "isAdmin":true
+}
+
+###
+POST http://localhost:4000/login
+Content-Type: application/json
+
+{
+    "email":"anuj4822@gmail.com",
+    "password":"Admin@123"
+}
