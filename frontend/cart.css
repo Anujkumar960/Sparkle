@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+#cartDiv{
+    height: auto;
+    width: 100%;
+   
+}
+
+#initial-bag{
+    color: #832729;
+    margin: 100px auto;
+   
+    display: grid;
+    justify-content: center;
+    
+}
+#emptyCart{
+    font-size: 1.625rem;
+    font-weight: bolder;
+    
+}
+#CartBag{
+    margin-left: 45px;
+}
+#Continue-Shopping{
+    font-size: 1.125rem;
+    color: #832729;
+    border: solid #832729;
+    border-radius: 7px;
+    padding: 7%;
+    margin-left: 40px;
+}
+
+/* js part */
+.cartImage{
+    height: 200px;
+    width: 200px;
+}
+.imgDivCart{
+    height: 200px;
+   
+}
+.cart-list{
+    display: grid;
+    
+    justify-content: center;
+    width: 100%;
+    /* background-color: red; */
+    /* margin-left: 10%;
+    margin-right: 10%; */
+}
+.cartImage{
+    border-radius: 10%;
+}
+.cardCart{
+    
+    display: flex;
+    gap: 5%;
+    width: 1000px;
+    height: 250px;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 2px solid black;
+    background-color: yellow; */
+    /* text-wrap: wrap; */
+}
+.detailCart{
+    width: 500px;
+    
+    /* border: 2px solid green; */
+}
+.cartBtnDiv{
+ display: flex;
+ gap: 4%;
+}
+.titleCart{
+    text-overflow: clip;
+    white-space: inherit;
+    overflow: hidden;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: bolder;
+    color: #832729;
+    font-size: 1.5rem;
+    line-height: 1.375rem;
+    width: 100%;
+    margin-bottom: 0;
+}
+.cartPrice{
+    /* font-size: 20px; */
+    font-weight: bolder;
+    font-size: x-large;
+}
+.lineOnCart{
+    border-bottom: 1.2px solid rgb(159, 158, 158);
+    width: 100%;
+}
+.lineOnDownImg{
+    border-bottom: 1.2px solid rgb(159, 158, 158);
+    width: 100%;
+}
+.cartWeight{
+    color: grey;
+}
+.deleteBtnImg {
+    height: 1rem;
+}
+.wishlistBtnImg{
+    height: 15px;
+}
+.cartDownImg{
+    width: 95%;
+    height: 200px;
+    margin: 2%;
+}
+.removeBtnCart{
+    font-weight: bolder;
+    font-size: large;
+    /* border: none; */
+    border-radius: 10px;
+    padding: 1%;
+    
+}
+.wishlistBtnCart{
+    font-weight: bolder;
+    font-size: large;
+    border-radius: 10px;
+    padding: 1%;
+    /* border: none; */
+}
