@@ -1,0 +1,17 @@
+#footer{
+    display: flex;
+    background-color: #efe3e3;
+    height: 700px;
+    width: 1500px;
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-evenly;
+    margin-left: 20px; 
+    margin-right: 20px; 
+}
+.foot_card{
+    margin-top: 50px;
+    height:400px;
+    width: 200px;
+    background-color:#efe3e3;
+}
