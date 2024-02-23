@@ -5,9 +5,39 @@
       "password": "$2a$10$WHENtoshGG4LWchUuGDPvORHi5Fj0i8rhNJzsLVznhMwk68bI6OS.",
       "isAdmin": true,
       "id": 1
+    },
+    {
+      "email": "anuj87825@gmail.com",
+      "password": "$2a$10$k0q.N.EGAHJozfaBjaNcjOCgS2UAgYceSbCmPwbNDS8gpgkoPJxwS",
+      "isAdmin": true,
+      "id": 2
+    },
+    {
+      "email": "Rishank12@gmail.com",
+      "password": "$2a$10$28Nc97.pHwY1Tqur.Ti0keZh0fDqE6KBPq20OVV9y6XDoel0NJ0nW",
+      "isAdmin": true,
+      "id": 3
+    },
+    {
+      "email": "Rohan12@gmail.com",
+      "password": "$2a$10$WtdmAUlK5DzQwg11ZR87zeUxezNKaam6jnmDYJ6BBoWtuH1/1PIAW",
+      "isAdmin": false,
+      "id": 4
+    },
+    {
+      "email": "Shayam12@gmail.com",
+      "password": "$2a$10$awGmzLAhrfYh77xH0kjJPuTIgyeLeRsxsohXApIMdfpuaEBeGO9Ki",
+      "isAdmin": false,
+      "id": 5
+    },
+    {
+      "email": "Mohan12@gmail.com",
+      "password": "$2a$10$y8M7ehHt9eXhxgapFc8Az.7nfPnucdP2DKN0yPS5s7hwAOBOkb7m6",
+      "isAdmin": false,
+      "id": 6
     }
   ],
-  "products":[
+  "products": [
     {
       "id": 1,
       "Title": "Beguiling 22 Karat Yellow Gold Overlapping Bell Jhumkas",
@@ -17,12 +47,12 @@
       "Price": 36137,
       "DiscountPrice": 36000,
       "Img": [
-         "https://staticimg.titan.co.in/Tanishq/Catalog/512216JHEABA00_1.jpg?impolicy=pqmed&imwidth=640",
-         "https://staticimg.titan.co.in/Tanishq/Catalog/512216JHEABA00_2.jpg?impolicy=pqmedlow&imwidth=320",
-         ""
+        "https://staticimg.titan.co.in/Tanishq/Catalog/512216JHEABA00_1.jpg?impolicy=pqmed&imwidth=640",
+        "https://staticimg.titan.co.in/Tanishq/Catalog/512216JHEABA00_2.jpg?impolicy=pqmedlow&imwidth=320",
+        ""
       ],
       "Brand": "Tanishq"
-   },
+    },
     {
       "id": 2,
       "Title": "Spellbinding Gold Jhumka Earrings",
@@ -32,12 +62,12 @@
       "Price": 45206,
       "DiscountPrice": 45000,
       "Img": [
-         "https://staticimg.titan.co.in/Tanishq/Catalog/515090JDPABA00_1.jpg?impolicy=pqmed&imwidth=640",
-         "https://staticimg.titan.co.in/Tanishq/Catalog/515090JDPABA00_2.jpg?impolicy=pqmedlow&imwidth=320",
-         "https://staticimg.titan.co.in/Tanishq/Catalog/515090JDPABA00_3.jpg?impolicy=pqmedlow&imwidth=320"
+        "https://staticimg.titan.co.in/Tanishq/Catalog/515090JDPABA00_1.jpg?impolicy=pqmed&imwidth=640",
+        "https://staticimg.titan.co.in/Tanishq/Catalog/515090JDPABA00_2.jpg?impolicy=pqmedlow&imwidth=320",
+        "https://staticimg.titan.co.in/Tanishq/Catalog/515090JDPABA00_3.jpg?impolicy=pqmedlow&imwidth=320"
       ],
       "Brand": "Tanishq"
-   },
+    },
     {
       "id": 3,
       "Title": "Radiant Traditional Jhumkas",
@@ -47,12 +77,12 @@
       "Price": 43700,
       "DiscountPrice": 43000,
       "Img": [
-         "https://staticimg.titan.co.in/Tanishq/Catalog/512314JIBABB00_1.jpg?impolicy=pqmed&imwidth=640",
-         "",
-         ""
+        "https://staticimg.titan.co.in/Tanishq/Catalog/512314JIBABB00_1.jpg?impolicy=pqmed&imwidth=640",
+        "",
+        ""
       ],
       "Brand": "Tanishq"
-   },
+    },
     {
       "id": 4,
       "Title": "Artistic Yellow Gold Tiered Floral Jhumkas",
@@ -62,12 +92,12 @@
       "Price": 44819,
       "DiscountPrice": 44000,
       "Img": [
-         "https://staticimg.titan.co.in/Tanishq/Catalog/515090JCQABA00_1.jpg?impolicy=pqmed&imwidth=640",
-         "https://staticimg.titan.co.in/Tanishq/Catalog/515090JCQABA00_2.jpg?impolicy=pqmedlow&imwidth=320",
-         "https://staticimg.titan.co.in/Tanishq/Catalog/515090JCQABA00_3.jpg?impolicy=pqmedlow&imwidth=320"
+        "https://staticimg.titan.co.in/Tanishq/Catalog/515090JCQABA00_1.jpg?impolicy=pqmed&imwidth=640",
+        "https://staticimg.titan.co.in/Tanishq/Catalog/515090JCQABA00_2.jpg?impolicy=pqmedlow&imwidth=320",
+        "https://staticimg.titan.co.in/Tanishq/Catalog/515090JCQABA00_3.jpg?impolicy=pqmedlow&imwidth=320"
       ],
       "Brand": "Tanishq"
-   },
+    },
     {
       "id": 5,
       "Title": "Delightful Yellow Gold Clover Jhumkas",
@@ -77,12 +107,12 @@
       "Price": 20718,
       "DiscountPrice": 20000,
       "Img": [
-         "https://staticimg.titan.co.in/Tanishq/Catalog/515090JDAAGA00_1.jpg?impolicy=pqmed&imwidth=640",
-         "https://staticimg.titan.co.in/Tanishq/Catalog/515090JDAAGA00_2.jpg?impolicy=pqmedlow&imwidth=320",
-         ""
+        "https://staticimg.titan.co.in/Tanishq/Catalog/515090JDAAGA00_1.jpg?impolicy=pqmed&imwidth=640",
+        "https://staticimg.titan.co.in/Tanishq/Catalog/515090JDAAGA00_2.jpg?impolicy=pqmedlow&imwidth=320",
+        ""
       ],
       "Brand": "Tanishq"
-   },
+    },
     {
       "id": 6,
       "Title": "Traditional Yellow Gold Filigree Jhumkas",
@@ -92,12 +122,12 @@
       "Price": 55017,
       "DiscountPrice": 55000,
       "Img": [
-         "https://staticimg.titan.co.in/Tanishq/Catalog/515090JCVABA00_1.jpg?impolicy=pqmed&imwidth=640",
-         "https://staticimg.titan.co.in/Tanishq/Catalog/515090JCVABA00_2.jpg?impolicy=pqmedlow&imwidth=320",
-         ""
+        "https://staticimg.titan.co.in/Tanishq/Catalog/515090JCVABA00_1.jpg?impolicy=pqmed&imwidth=640",
+        "https://staticimg.titan.co.in/Tanishq/Catalog/515090JCVABA00_2.jpg?impolicy=pqmedlow&imwidth=320",
+        ""
       ],
       "Brand": "Tanishq"
-   },
+    },
     {
       "id": 7,
       "Title": "Incandescent Yellow Gold Swan Jhumkas",
@@ -107,12 +137,12 @@
       "Price": 24555,
       "DiscountPrice": 24000,
       "Img": [
-         "https://staticimg.titan.co.in/Tanishq/Catalog/515090JDMAGA00_1.jpg?impolicy=pqmed&imwidth=640",
-         "https://staticimg.titan.co.in/Tanishq/Catalog/515090JDMAGA00_2.jpg?impolicy=pqmedlow&imwidth=320",
-         ""
+        "https://staticimg.titan.co.in/Tanishq/Catalog/515090JDMAGA00_1.jpg?impolicy=pqmed&imwidth=640",
+        "https://staticimg.titan.co.in/Tanishq/Catalog/515090JDMAGA00_2.jpg?impolicy=pqmedlow&imwidth=320",
+        ""
       ],
       "Brand": "Tanishq"
-   },
+    },
     {
       "id": 8,
       "Title": "Avant-Garde Yellow Gold Carved Jhumkas",
@@ -122,12 +152,12 @@
       "Price": 31476,
       "DiscountPrice": 30000,
       "Img": [
-         "https://staticimg.titan.co.in/Tanishq/Catalog/515090JBGABA00_1.jpg?impolicy=pqmed&imwidth=640",
-         "https://staticimg.titan.co.in/Tanishq/Catalog/515090JBGABA00_2.jpg?impolicy=pqmedlow&imwidth=320",
-         "https://staticimg.titan.co.in/Tanishq/Catalog/515090JBGABA00_3.jpg?impolicy=pqmedlow&imwidth=320"
+        "https://staticimg.titan.co.in/Tanishq/Catalog/515090JBGABA00_1.jpg?impolicy=pqmed&imwidth=640",
+        "https://staticimg.titan.co.in/Tanishq/Catalog/515090JBGABA00_2.jpg?impolicy=pqmedlow&imwidth=320",
+        "https://staticimg.titan.co.in/Tanishq/Catalog/515090JBGABA00_3.jpg?impolicy=pqmedlow&imwidth=320"
       ],
       "Brand": "Tanishq"
-   },
+    },
     {
       "id": 9,
       "Title": "Brilliant Yellow Gold Peacock Jhumkas",
@@ -137,12 +167,12 @@
       "Price": 24461,
       "DiscountPrice": 24000,
       "Img": [
-         "https://staticimg.titan.co.in/Tanishq/Catalog/515090JDHAGA00_1.jpg?impolicy=pqmed&imwidth=640",
-         "https://staticimg.titan.co.in/Tanishq/Catalog/515090JDHAGA00_2.jpg?impolicy=pqmedlow&imwidth=320",
-         ""
+        "https://staticimg.titan.co.in/Tanishq/Catalog/515090JDHAGA00_1.jpg?impolicy=pqmed&imwidth=640",
+        "https://staticimg.titan.co.in/Tanishq/Catalog/515090JDHAGA00_2.jpg?impolicy=pqmedlow&imwidth=320",
+        ""
       ],
       "Brand": "Tanishq"
-   },
+    },
     {
       "id": 10,
       "Title": "Splendid Gold Jhumka Earrings",
@@ -152,12 +182,12 @@
       "Price": 27672,
       "DiscountPrice": 27000,
       "Img": [
-         "https://staticimg.titan.co.in/Tanishq/Catalog/512216JHFABB00_1.jpg?impolicy=pqmed&imwidth=640",
-         "",
-         ""
+        "https://staticimg.titan.co.in/Tanishq/Catalog/512216JHFABB00_1.jpg?impolicy=pqmed&imwidth=640",
+        "",
+        ""
       ],
       "Brand": "Tanishq"
-   },
+    },
     {
       "id": 11,
       "Title": "Enchanting 18 Karat Yellow Gold And Pearl Geometric Drop Earrings",
@@ -167,12 +197,12 @@
       "Price": 15673,
       "DiscountPrice": 15000,
       "Img": [
-         "https://staticimg.titan.co.in/Tanishq/Catalog/500109DAAABAPL_1.jpg?impolicy=pqmed&imwidth=640",
-         "https://staticimg.titan.co.in/Tanishq/Catalog/500109DAAABAPL_2.jpg?impolicy=pqmedlow&imwidth=320",
-         "https://staticimg.titan.co.in/Tanishq/Catalog/500109DAAABAPL_3.jpg?impolicy=pqmedlow&imwidth=320"
+        "https://staticimg.titan.co.in/Tanishq/Catalog/500109DAAABAPL_1.jpg?impolicy=pqmed&imwidth=640",
+        "https://staticimg.titan.co.in/Tanishq/Catalog/500109DAAABAPL_2.jpg?impolicy=pqmedlow&imwidth=320",
+        "https://staticimg.titan.co.in/Tanishq/Catalog/500109DAAABAPL_3.jpg?impolicy=pqmedlow&imwidth=320"
       ],
       "Brand": "Tanishq"
-   },
+    },
     {
       "id": 12,
       "Title": "Traditional 22 Karat Gold And Multi Stone Drop Earrings",
@@ -182,12 +212,12 @@
       "Price": 66874,
       "DiscountPrice": 66000,
       "Img": [
-         "https://staticimg.titan.co.in/Tanishq/Catalog/511183DQEABA40_1.jpg?impolicy=pqmed&imwidth=640",
-         "https://staticimg.titan.co.in/Tanishq/Catalog/511183DQEABA40_2.jpg?impolicy=pqmedlow&imwidth=320",
-         ""
+        "https://staticimg.titan.co.in/Tanishq/Catalog/511183DQEABA40_1.jpg?impolicy=pqmed&imwidth=640",
+        "https://staticimg.titan.co.in/Tanishq/Catalog/511183DQEABA40_2.jpg?impolicy=pqmedlow&imwidth=320",
+        ""
       ],
       "Brand": "Tanishq"
-   },
+    },
     {
       "id": 13,
       "Title": "Exquisite 18 Karat Yellow Gold And Citrine Drops",
@@ -197,12 +227,12 @@
       "Price": 26015,
       "DiscountPrice": 25000,
       "Img": [
-         "https://staticimg.titan.co.in/Tanishq/Catalog/500859DBAABA31_1.jpg?impolicy=pqmed&imwidth=640",
-         "https://staticimg.titan.co.in/Tanishq/Catalog/500859DBAABA31_2.jpg?impolicy=pqmedlow&imwidth=320",
-         "https://staticimg.titan.co.in/Tanishq/Catalog/500859DBAABA31_3.jpg?impolicy=pqmedlow&imwidth=320"
+        "https://staticimg.titan.co.in/Tanishq/Catalog/500859DBAABA31_1.jpg?impolicy=pqmed&imwidth=640",
+        "https://staticimg.titan.co.in/Tanishq/Catalog/500859DBAABA31_2.jpg?impolicy=pqmedlow&imwidth=320",
+        "https://staticimg.titan.co.in/Tanishq/Catalog/500859DBAABA31_3.jpg?impolicy=pqmedlow&imwidth=320"
       ],
       "Brand": "Tanishq"
-   },
+    },
     {
       "id": 14,
       "Title": "Alluring 22 Karat Gold And Ruby Floral Drop Earrings",
@@ -212,12 +242,12 @@
       "Price": 54136,
       "DiscountPrice": 53000,
       "Img": [
-         "https://staticimg.titan.co.in/Tanishq/Catalog/511182DVNABA18_1.jpg?impolicy=pqmed&imwidth=640",
-         "https://staticimg.titan.co.in/Tanishq/Catalog/511182DVNABA18_2.jpg?impolicy=pqmedlow&imwidth=320",
-         ""
+        "https://staticimg.titan.co.in/Tanishq/Catalog/511182DVNABA18_1.jpg?impolicy=pqmed&imwidth=640",
+        "https://staticimg.titan.co.in/Tanishq/Catalog/511182DVNABA18_2.jpg?impolicy=pqmedlow&imwidth=320",
+        ""
       ],
       "Brand": "Tanishq"
-   },
+    },
     {
       "id": 15,
       "Title": "Nimaya Ruby Drop Earrings",
@@ -227,12 +257,12 @@
       "Price": 47880,
       "DiscountPrice": 46000,
       "Img": [
-         "https://staticimg.titan.co.in/Tanishq/Catalog/511183DQJABA18_1.jpg?impolicy=pqmed&imwidth=640",
-         "https://staticimg.titan.co.in/Tanishq/Catalog/511183DQJABA18_2.jpg?impolicy=pqmedlow&imwidth=320",
-         ""
+        "https://staticimg.titan.co.in/Tanishq/Catalog/511183DQJABA18_1.jpg?impolicy=pqmed&imwidth=640",
+        "https://staticimg.titan.co.in/Tanishq/Catalog/511183DQJABA18_2.jpg?impolicy=pqmedlow&imwidth=320",
+        ""
       ],
       "Brand": "Tanishq"
-   },
+    },
     {
       "id": 16,
       "Title": "Eccentric 22 Karat Gold And Ruby Drop Earrings",
@@ -242,12 +272,12 @@
       "Price": 38982,
       "DiscountPrice": 37000,
       "Img": [
-         "https://staticimg.titan.co.in/Tanishq/Catalog/512814DPEABA18_1.jpg?impolicy=pqmed&imwidth=640",
-         "https://staticimg.titan.co.in/Tanishq/Catalog/512814DPEABA18_2.jpg?impolicy=pqmedlow&imwidth=320",
-         ""
+        "https://staticimg.titan.co.in/Tanishq/Catalog/512814DPEABA18_1.jpg?impolicy=pqmed&imwidth=640",
+        "https://staticimg.titan.co.in/Tanishq/Catalog/512814DPEABA18_2.jpg?impolicy=pqmedlow&imwidth=320",
+        ""
       ],
       "Brand": "Tanishq"
-   },
+    },
     {
       "id": 17,
       "Title": "Enthralling 22 Karat Gold And Ruby Floral Drop Earrings",
@@ -257,12 +287,12 @@
       "Price": 54530,
       "DiscountPrice": 53000,
       "Img": [
-         "https://staticimg.titan.co.in/Tanishq/Catalog/512814DPFABA18_1.jpg?impolicy=pqmed&imwidth=640",
-         "https://staticimg.titan.co.in/Tanishq/Catalog/512814DPFABA18_2.jpg?impolicy=pqmedlow&imwidth=320",
-         ""
+        "https://staticimg.titan.co.in/Tanishq/Catalog/512814DPFABA18_1.jpg?impolicy=pqmed&imwidth=640",
+        "https://staticimg.titan.co.in/Tanishq/Catalog/512814DPFABA18_2.jpg?impolicy=pqmedlow&imwidth=320",
+        ""
       ],
       "Brand": "Tanishq"
-   },
+    },
     {
       "id": 18,
       "Title": "Enrapturing 22 Karat Gold And Multi Stone Teardrop Earrings",
@@ -272,12 +302,12 @@
       "Price": 35895,
       "DiscountPrice": 35000,
       "Img": [
-         "https://staticimg.titan.co.in/Tanishq/Catalog/512814DPGABA40_1.jpg?impolicy=pqmed&imwidth=640",
-         "https://staticimg.titan.co.in/Tanishq/Catalog/512814DPGABA40_2.jpg?impolicy=pqmedlow&imwidth=320",
-         ""
+        "https://staticimg.titan.co.in/Tanishq/Catalog/512814DPGABA40_1.jpg?impolicy=pqmed&imwidth=640",
+        "https://staticimg.titan.co.in/Tanishq/Catalog/512814DPGABA40_2.jpg?impolicy=pqmedlow&imwidth=320",
+        ""
       ],
       "Brand": "Tanishq"
-   },
+    },
     {
       "id": 19,
       "Title": "Graceful 22 Karat Yellow Gold Lead Patterned Drop Earrings",
@@ -287,12 +317,12 @@
       "Price": 23533,
       "DiscountPrice": 23000,
       "Img": [
-         "https://staticimg.titan.co.in/Tanishq/Catalog/511096DCCABA18_1.jpg?impolicy=pqmed&imwidth=640",
-         "https://staticimg.titan.co.in/Tanishq/Catalog/511096DCCABA18_2.jpg?impolicy=pqmedlow&imwidth=320",
-         "https://staticimg.titan.co.in/Tanishq/Catalog/511096DCCABA18_3.jpg?impolicy=pqmedlow&imwidth=320"
+        "https://staticimg.titan.co.in/Tanishq/Catalog/511096DCCABA18_1.jpg?impolicy=pqmed&imwidth=640",
+        "https://staticimg.titan.co.in/Tanishq/Catalog/511096DCCABA18_2.jpg?impolicy=pqmedlow&imwidth=320",
+        "https://staticimg.titan.co.in/Tanishq/Catalog/511096DCCABA18_3.jpg?impolicy=pqmedlow&imwidth=320"
       ],
       "Brand": "Tanishq"
-   },
+    },
     {
       "id": 20,
       "Title": "Graceful 22 Karat Gold And Ruby Floral Drop Earrings",
@@ -302,12 +332,12 @@
       "Price": 22913,
       "DiscountPrice": 22000,
       "Img": [
-         "https://staticimg.titan.co.in/Tanishq/Catalog/511096DCGABA18_1.jpg?impolicy=pqmed&imwidth=640",
-         "https://staticimg.titan.co.in/Tanishq/Catalog/511096DCGABA18_2.jpg?impolicy=pqmedlow&imwidth=320",
-         "https://staticimg.titan.co.in/Tanishq/Catalog/511096DCGABA18_3.jpg?impolicy=pqmedlow&imwidth=320"
+        "https://staticimg.titan.co.in/Tanishq/Catalog/511096DCGABA18_1.jpg?impolicy=pqmed&imwidth=640",
+        "https://staticimg.titan.co.in/Tanishq/Catalog/511096DCGABA18_2.jpg?impolicy=pqmedlow&imwidth=320",
+        "https://staticimg.titan.co.in/Tanishq/Catalog/511096DCGABA18_3.jpg?impolicy=pqmedlow&imwidth=320"
       ],
       "Brand": "Tanishq"
-   },
+    },
     {
       "id": 21,
       "Title": "Luxurious 18 Karat Gold And Ruby Curved Stud",
@@ -317,12 +347,12 @@
       "Price": 20997,
       "DiscountPrice": 19000,
       "Img": [
-         "https://staticimg.titan.co.in/Tanishq/Catalog/500177HKAABA12_1.jpg?impolicy=pqmed&imwidth=640",
-         "https://staticimg.titan.co.in/Tanishq/Catalog/500177HKAABA12_1.jpg?impolicy=pqmed&imwidth=640",
-         "https://staticimg.titan.co.in/Tanishq/Catalog/500177HKAABA12_3.jpg?impolicy=pqmedlow&imwidth=320"
+        "https://staticimg.titan.co.in/Tanishq/Catalog/500177HKAABA12_1.jpg?impolicy=pqmed&imwidth=640",
+        "https://staticimg.titan.co.in/Tanishq/Catalog/500177HKAABA12_1.jpg?impolicy=pqmed&imwidth=640",
+        "https://staticimg.titan.co.in/Tanishq/Catalog/500177HKAABA12_3.jpg?impolicy=pqmedlow&imwidth=320"
       ],
       "Brand": "Tanishq"
-   },
+    },
     {
       "id": 22,
       "Title": "Dainty Beaded Gold Hoop Earrings",
@@ -332,12 +362,12 @@
       "Price": 6976,
       "DiscountPrice": 6000,
       "Img": [
-         "https://staticimg.titan.co.in/Tanishq/Catalog/503013HZHAAA00_1.jpg?impolicy=pqmed&imwidth=640",
-         "https://staticimg.titan.co.in/Tanishq/Catalog/503013HZHAAA00_1.jpg?impolicy=pqmed&imwidth=640",
-         "https://staticimg.titan.co.in/Tanishq/Catalog/503013HZHAAA00_3.jpg?impolicy=pqmedlow&imwidth=320"
+        "https://staticimg.titan.co.in/Tanishq/Catalog/503013HZHAAA00_1.jpg?impolicy=pqmed&imwidth=640",
+        "https://staticimg.titan.co.in/Tanishq/Catalog/503013HZHAAA00_1.jpg?impolicy=pqmed&imwidth=640",
+        "https://staticimg.titan.co.in/Tanishq/Catalog/503013HZHAAA00_3.jpg?impolicy=pqmedlow&imwidth=320"
       ],
       "Brand": "Tanishq"
-   },
+    },
     {
       "id": 23,
       "Title": "Sublime Gold Hoop Earrings",
@@ -347,12 +377,12 @@
       "Price": 2899,
       "DiscountPrice": 2700,
       "Img": [
-         "https://staticimg.titan.co.in/Tanishq/Catalog/502218HDSAAA00_1.jpg?impolicy=pqmed&imwidth=640",
-         "https://staticimg.titan.co.in/Tanishq/Catalog/502218HDSAAA00_2.jpg?impolicy=pqmedlow&imwidth=320",
-         ""
+        "https://staticimg.titan.co.in/Tanishq/Catalog/502218HDSAAA00_1.jpg?impolicy=pqmed&imwidth=640",
+        "https://staticimg.titan.co.in/Tanishq/Catalog/502218HDSAAA00_2.jpg?impolicy=pqmedlow&imwidth=320",
+        ""
       ],
       "Brand": "Tanishq"
-   },
+    },
     {
       "id": 24,
       "Title": "Dainty Delicate Gold Hoop Earrings",
@@ -362,12 +392,12 @@
       "Price": 6760,
       "DiscountPrice": 6700,
       "Img": [
-         "https://staticimg.titan.co.in/Tanishq/Catalog/503013HZGAAA00_1.jpg?impolicy=pqmed&imwidth=640",
-         "https://staticimg.titan.co.in/Tanishq/Catalog/503013HZGAAA00_2.jpg?impolicy=pqmedlow&imwidth=320",
-         "https://staticimg.titan.co.in/Tanishq/Catalog/503013HZGAAA00_3.jpg?impolicy=pqmedlow&imwidth=320"
+        "https://staticimg.titan.co.in/Tanishq/Catalog/503013HZGAAA00_1.jpg?impolicy=pqmed&imwidth=640",
+        "https://staticimg.titan.co.in/Tanishq/Catalog/503013HZGAAA00_2.jpg?impolicy=pqmedlow&imwidth=320",
+        "https://staticimg.titan.co.in/Tanishq/Catalog/503013HZGAAA00_3.jpg?impolicy=pqmedlow&imwidth=320"
       ],
       "Brand": "Tanishq"
-   },
+    },
     {
       "id": 25,
       "Title": "Timeless 18 Karat Yellow Gold Bali-Style Hoop Earrings",
@@ -377,12 +407,12 @@
       "Price": 5139,
       "DiscountPrice": 5000,
       "Img": [
-         "https://staticimg.titan.co.in/Tanishq/Catalog/502218HDUAAA00_1.jpg?impolicy=pqmed&imwidth=640",
-         "https://staticimg.titan.co.in/Tanishq/Catalog/502218HDUAAA00_2.jpg?impolicy=pqmedlow&imwidth=320",
-         ""
+        "https://staticimg.titan.co.in/Tanishq/Catalog/502218HDUAAA00_1.jpg?impolicy=pqmed&imwidth=640",
+        "https://staticimg.titan.co.in/Tanishq/Catalog/502218HDUAAA00_2.jpg?impolicy=pqmedlow&imwidth=320",
+        ""
       ],
       "Brand": "Tanishq"
-   },
+    },
     {
       "id": 26,
       "Title": "Delightful Gold Hoop Earrings",
@@ -392,12 +422,12 @@
       "Price": 23868,
       "DiscountPrice": 22000,
       "Img": [
-         "https://staticimg.titan.co.in/Tanishq/Catalog/511418HAYAAA00_1.jpg?impolicy=pqmed&imwidth=640",
-         "https://staticimg.titan.co.in/Tanishq/Catalog/511418HAYAAA00_2.jpg?impolicy=pqmedlow&imwidth=320",
-         ""
+        "https://staticimg.titan.co.in/Tanishq/Catalog/511418HAYAAA00_1.jpg?impolicy=pqmed&imwidth=640",
+        "https://staticimg.titan.co.in/Tanishq/Catalog/511418HAYAAA00_2.jpg?impolicy=pqmedlow&imwidth=320",
+        ""
       ],
       "Brand": "Tanishq"
-   },
+    },
     {
       "id": 27,
       "Title": "Entrancing Swirling Gold Beaded Hoop Bali Earrings",
@@ -407,12 +437,12 @@
       "Price": 20035,
       "DiscountPrice": 19000,
       "Img": [
-         "https://staticimg.titan.co.in/Tanishq/Catalog/501720HCSAAA00_1.jpg?impolicy=pqmed&imwidth=640",
-         "https://staticimg.titan.co.in/Tanishq/Catalog/501720HCSAAA00_1.jpg?impolicy=pqmed&imwidth=640",
-         "https://staticimg.titan.co.in/Tanishq/Catalog/501720HCSAAA00_3.jpg?impolicy=pqmedlow&imwidth=320"
+        "https://staticimg.titan.co.in/Tanishq/Catalog/501720HCSAAA00_1.jpg?impolicy=pqmed&imwidth=640",
+        "https://staticimg.titan.co.in/Tanishq/Catalog/501720HCSAAA00_1.jpg?impolicy=pqmed&imwidth=640",
+        "https://staticimg.titan.co.in/Tanishq/Catalog/501720HCSAAA00_3.jpg?impolicy=pqmedlow&imwidth=320"
       ],
       "Brand": "Tanishq"
-   },
+    },
     {
       "id": 28,
       "Title": "Elegant Gold Hoop Bali Earrings",
@@ -422,12 +452,12 @@
       "Price": 33171,
       "DiscountPrice": 32000,
       "Img": [
-         "https://staticimg.titan.co.in/Tanishq/Catalog/510340HDAAKA00.jpg?impolicy=pqmed&imwidth=640",
-         "https://staticimg.titan.co.in/Tanishq/Catalog/510340HDAAKA00_1.jpg?impolicy=pqmedlow&imwidth=320",
-         "https://staticimg.titan.co.in/Tanishq/Catalog/510340HDAAKA00_2.jpg?impolicy=pqmedlow&imwidth=320"
+        "https://staticimg.titan.co.in/Tanishq/Catalog/510340HDAAKA00.jpg?impolicy=pqmed&imwidth=640",
+        "https://staticimg.titan.co.in/Tanishq/Catalog/510340HDAAKA00_1.jpg?impolicy=pqmedlow&imwidth=320",
+        "https://staticimg.titan.co.in/Tanishq/Catalog/510340HDAAKA00_2.jpg?impolicy=pqmedlow&imwidth=320"
       ],
       "Brand": "Tanishq"
-   },
+    },
     {
       "id": 29,
       "Title": "Romantic Gold Hoop Earrings",
@@ -437,12 +467,12 @@
       "Price": 8496,
       "DiscountPrice": 8000,
       "Img": [
-         "https://staticimg.titan.co.in/Tanishq/Catalog/502218HOVAAA00_1.jpg?impolicy=pqmed&imwidth=640",
-         "https://staticimg.titan.co.in/Tanishq/Catalog/502218HOVAAA00_2.jpg?impolicy=pqmedlow&imwidth=320",
-         "https://staticimg.titan.co.in/Tanishq/Catalog/502218HOVAAA00_3.jpg?impolicy=pqmedlow&imwidth=320"
+        "https://staticimg.titan.co.in/Tanishq/Catalog/502218HOVAAA00_1.jpg?impolicy=pqmed&imwidth=640",
+        "https://staticimg.titan.co.in/Tanishq/Catalog/502218HOVAAA00_2.jpg?impolicy=pqmedlow&imwidth=320",
+        "https://staticimg.titan.co.in/Tanishq/Catalog/502218HOVAAA00_3.jpg?impolicy=pqmedlow&imwidth=320"
       ],
       "Brand": "Tanishq"
-   },
+    },
     {
       "id": 30,
       "Title": "Sophisticated Yellow Gold Thunderbolt Hoop Earrings",
@@ -452,12 +482,12 @@
       "Price": 19100,
       "DiscountPrice": 18000,
       "Img": [
-         "https://staticimg.titan.co.in/Tanishq/Catalog/500937HBAAAA00_1.jpg?impolicy=pqmed&imwidth=640",
-         "https://staticimg.titan.co.in/Tanishq/Catalog/500937HBAAAA00_2.jpg?impolicy=pqmedlow&imwidth=320",
-         ""
+        "https://staticimg.titan.co.in/Tanishq/Catalog/500937HBAAAA00_1.jpg?impolicy=pqmed&imwidth=640",
+        "https://staticimg.titan.co.in/Tanishq/Catalog/500937HBAAAA00_2.jpg?impolicy=pqmedlow&imwidth=320",
+        ""
       ],
       "Brand": "Tanishq"
-   },
+    },
     {
       "id": 31,
       "Title": "Hypnotic Ruby Floral Round Stud Earrings",
@@ -467,12 +497,12 @@
       "Price": 63040,
       "DiscountPrice": 62000,
       "Img": [
-         "https://staticimg.titan.co.in/Tanishq/Catalog/512814SQEABA18_1.jpg?impolicy=pqmed&imwidth=640",
-         "https://staticimg.titan.co.in/Tanishq/Catalog/512814SQEABA18_2.jpg?impolicy=pqmedlow&imwidth=320",
-         ""
+        "https://staticimg.titan.co.in/Tanishq/Catalog/512814SQEABA18_1.jpg?impolicy=pqmed&imwidth=640",
+        "https://staticimg.titan.co.in/Tanishq/Catalog/512814SQEABA18_2.jpg?impolicy=pqmedlow&imwidth=320",
+        ""
       ],
       "Brand": "Tanishq"
-   },
+    },
     {
       "id": 32,
       "Title": "Charming 22 Karat Yellow Gold And Ruby Floral Stud Earrings",
@@ -482,12 +512,12 @@
       "Price": 37106,
       "DiscountPrice": 36000,
       "Img": [
-         "https://staticimg.titan.co.in/Tanishq/Catalog/511183STSABB18_1.jpg?impolicy=pqmed&imwidth=640",
-         "https://staticimg.titan.co.in/Tanishq/Catalog/511183STSABB18_2.jpg?impolicy=pqmedlow&imwidth=320",
-         ""
+        "https://staticimg.titan.co.in/Tanishq/Catalog/511183STSABB18_1.jpg?impolicy=pqmed&imwidth=640",
+        "https://staticimg.titan.co.in/Tanishq/Catalog/511183STSABB18_2.jpg?impolicy=pqmedlow&imwidth=320",
+        ""
       ],
       "Brand": "Tanishq"
-   },
+    },
     {
       "id": 33,
       "Title": "Charming 18 Karat Yellow Gold And Pearl Stud Earrings",
@@ -497,12 +527,12 @@
       "Price": 11700,
       "DiscountPrice": 11000,
       "Img": [
-         "https://staticimg.titan.co.in/Tanishq/Catalog/500060SAAAGAPL_1.jpg?impolicy=pqmed&imwidth=640",
-         "https://staticimg.titan.co.in/Tanishq/Catalog/500060SAAAGAPL_1.jpg?impolicy=pqmed&imwidth=640",
-         "https://staticimg.titan.co.in/Tanishq/Catalog/500060SAAAGAPL_3.jpg?impolicy=pqmedlow&imwidth=320"
+        "https://staticimg.titan.co.in/Tanishq/Catalog/500060SAAAGAPL_1.jpg?impolicy=pqmed&imwidth=640",
+        "https://staticimg.titan.co.in/Tanishq/Catalog/500060SAAAGAPL_1.jpg?impolicy=pqmed&imwidth=640",
+        "https://staticimg.titan.co.in/Tanishq/Catalog/500060SAAAGAPL_3.jpg?impolicy=pqmedlow&imwidth=320"
       ],
       "Brand": "Tanishq"
-   },
+    },
     {
       "id": 34,
       "Title": "Resplendent Floral Ruby Stud Earrings",
@@ -512,12 +542,12 @@
       "Price": 42912,
       "DiscountPrice": 42000,
       "Img": [
-         "https://staticimg.titan.co.in/Tanishq/Catalog/511183SSFABA18_1.jpg?impolicy=pqmed&imwidth=640",
-         "https://staticimg.titan.co.in/Tanishq/Catalog/511183SSFABA18_1.jpg?impolicy=pqmed&imwidth=640",
-         ""
+        "https://staticimg.titan.co.in/Tanishq/Catalog/511183SSFABA18_1.jpg?impolicy=pqmed&imwidth=640",
+        "https://staticimg.titan.co.in/Tanishq/Catalog/511183SSFABA18_1.jpg?impolicy=pqmed&imwidth=640",
+        ""
       ],
       "Brand": "Tanishq"
-   },
+    },
     {
       "id": 35,
       "Title": "Mesmerizing 22 Karat Gold And Ruby Bloom Stud Earrings",
@@ -527,12 +557,12 @@
       "Price": 29012,
       "DiscountPrice": 28000,
       "Img": [
-         "https://staticimg.titan.co.in/Tanishq/Catalog/512814SQUABA18_1.jpg?impolicy=pqmed&imwidth=640",
-         "https://staticimg.titan.co.in/Tanishq/Catalog/512814SQUABA18_2.jpg?impolicy=pqmed&imwidth=640",
-         ""
+        "https://staticimg.titan.co.in/Tanishq/Catalog/512814SQUABA18_1.jpg?impolicy=pqmed&imwidth=640",
+        "https://staticimg.titan.co.in/Tanishq/Catalog/512814SQUABA18_2.jpg?impolicy=pqmed&imwidth=640",
+        ""
       ],
       "Brand": "Tanishq"
-   },
+    },
     {
       "id": 36,
       "Title": "Appealing 18 Karat Yellow Gold Ruby-Embellished Petals Stud Earrings",
@@ -542,12 +572,12 @@
       "Price": 11160,
       "DiscountPrice": 11000,
       "Img": [
-         "https://staticimg.titan.co.in/Tanishq/Catalog/500067SWAABA12_1.jpg?impolicy=pqmed&imwidth=640",
-         "https://staticimg.titan.co.in/Tanishq/Catalog/500067SWAABA12_2.jpg?impolicy=pqmedlow&imwidth=320",
-         ""
+        "https://staticimg.titan.co.in/Tanishq/Catalog/500067SWAABA12_1.jpg?impolicy=pqmed&imwidth=640",
+        "https://staticimg.titan.co.in/Tanishq/Catalog/500067SWAABA12_2.jpg?impolicy=pqmedlow&imwidth=320",
+        ""
       ],
       "Brand": "Tanishq"
-   },
+    },
     {
       "id": 37,
       "Title": "Minimalist 18 Karat Yellow Gold And Pearl Studs",
@@ -557,12 +587,12 @@
       "Price": 9348,
       "DiscountPrice": 9000,
       "Img": [
-         "https://staticimg.titan.co.in/Tanishq/Catalog/500104SHAABAPL_1.jpg?impolicy=pqmed&imwidth=640",
-         "https://staticimg.titan.co.in/Tanishq/Catalog/500104SHAABAPL_2.jpg?impolicy=pqmedlow&imwidth=320",
-         "https://staticimg.titan.co.in/Tanishq/Catalog/500104SHAABAPL_2.jpg?impolicy=pqmedlow&imwidth=320"
+        "https://staticimg.titan.co.in/Tanishq/Catalog/500104SHAABAPL_1.jpg?impolicy=pqmed&imwidth=640",
+        "https://staticimg.titan.co.in/Tanishq/Catalog/500104SHAABAPL_2.jpg?impolicy=pqmedlow&imwidth=320",
+        "https://staticimg.titan.co.in/Tanishq/Catalog/500104SHAABAPL_2.jpg?impolicy=pqmedlow&imwidth=320"
       ],
       "Brand": "Tanishq"
-   },
+    },
     {
       "id": 38,
       "Title": "Classy 18 Karat Yellow Gold And Pearl Swirling Petals Stud Earrings",
@@ -572,12 +602,12 @@
       "Price": 24247,
       "DiscountPrice": 24000,
       "Img": [
-         "https://staticimg.titan.co.in/Tanishq/Catalog/501033SXKABAPL_1.jpg?impolicy=pqmed&imwidth=640",
-         "https://staticimg.titan.co.in/Tanishq/Catalog/501033SXKABAPL_2.jpg?impolicy=pqmedlow&imwidth=320",
-         ""
+        "https://staticimg.titan.co.in/Tanishq/Catalog/501033SXKABAPL_1.jpg?impolicy=pqmed&imwidth=640",
+        "https://staticimg.titan.co.in/Tanishq/Catalog/501033SXKABAPL_2.jpg?impolicy=pqmedlow&imwidth=320",
+        ""
       ],
       "Brand": "Tanishq"
-   },
+    },
     {
       "id": 39,
       "Title": "Resplendent Floral Ruby Stud Earrings",
@@ -587,12 +617,12 @@
       "Price": 42912,
       "DiscountPrice": 42000,
       "Img": [
-         "https://staticimg.titan.co.in/Tanishq/Catalog/511183SSFABA18_1.jpg?impolicy=pqmed&imwidth=640",
-         "https://staticimg.titan.co.in/Tanishq/Catalog/511183SSFABA18_2.jpg?impolicy=pqmedlow&imwidth=320",
-         ""
+        "https://staticimg.titan.co.in/Tanishq/Catalog/511183SSFABA18_1.jpg?impolicy=pqmed&imwidth=640",
+        "https://staticimg.titan.co.in/Tanishq/Catalog/511183SSFABA18_2.jpg?impolicy=pqmedlow&imwidth=320",
+        ""
       ],
       "Brand": "Tanishq"
-   },
+    },
     {
       "id": 40,
       "Title": "Opulent 18 Karat Gold And Emerald Paisley Drop Earrings",
@@ -602,13 +632,11 @@
       "Price": 38081,
       "DiscountPrice": 37000,
       "Img": [
-         "https://staticimg.titan.co.in/Tanishq/Catalog/501095SAJABA11_1.jpg?impolicy=pqmed&imwidth=640",
-         "https://staticimg.titan.co.in/Tanishq/Catalog/501095SAJABA11_2.jpg?impolicy=pqmedlow&imwidth=320",
-         ""
+        "https://staticimg.titan.co.in/Tanishq/Catalog/501095SAJABA11_1.jpg?impolicy=pqmed&imwidth=640",
+        "https://staticimg.titan.co.in/Tanishq/Catalog/501095SAJABA11_2.jpg?impolicy=pqmedlow&imwidth=320",
+        ""
       ],
       "Brand": "Tanishq"
-   }
-   ]
+    }
+  ]
 }
-
-
