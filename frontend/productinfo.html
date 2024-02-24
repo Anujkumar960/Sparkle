@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Info</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+      }
+
+      .product-page {
+        display: flex;
+        justify-content: center;
+        max-width: 1200px;
+        margin: 20px auto;
+        border: 1px solid #ccc;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .product-info {
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .product-info img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      .product-id {
+        font-size: 14px;
+        color: #999;
+      }
+
+      .product-name {
+        font-size: 32px;
+        color: #333;
+        margin: 10px 0;
+      }
+
+      .ratings {
+        font-size: 16px;
+        color: #f90;
+        margin: 10px 0;
+      }
+
+      .product-description {
+        font-size: 18px;
+        color: #666;
+        margin: 10px 0;
+      }
+
+      .product-price {
+        font-size: 24px;
+        color: #f00;
+        margin: 10px 0;
+      }
+
+      .product-weight,
+      .product-purity {
+        font-size: 18px;
+        color: #666;
+        margin: 10px 0;
+      }
+
+      .product-actions,
+      .product-availability {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 10px 0;
+      }
+
+      .product-actions label,
+      .product-availability label {
+        font-size: 18px;
+        color: #333;
+        margin-right: 10px;
+      }
+
+      .product-actions input,
+      .product-availability input,
+      .product-availability select {
+        height: 30px;
+        margin-right: 10px;
+      }
+
+      .product-actions button,
+      .product-availability button {
+        height: 30px;
+        margin-right: 10px;
+        font-size: 18px;
+        color: #fff;
+        background: #f90;
+        border: none;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+
+      .product-actions button:hover,
+      .product-availability button:hover {
+        transform: scale(1.1);
+      }
+
+      .add-to-cart {
+        background: #f90;
+      }
+
+      .buy-now {
+        background: #f00;
+      }
+
+      @media (max-width: 768px) {
+        .product-page {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="product-page">
+      <div class="product-info">
+        <div class="product-image">
+          <img id="productImage" src="" alt="Product Image" />
+        </div>
+        <div class="product-details">
+          <h1 class="product-name" id="productName"></h1>
+          <p class="product-price" id="productPrice"></p>
+          <p class="product-description" id="productDescription"></p>
+        </div>
+        <div class="ratings" id="starRating">★★★★☆ Write a review</div>
+        <div class="product-weight">
+          Gross Weight <span class="weight">4.316 g</span>
+        </div>
+        <div class="product-purity">Gold Purity: 22 Karat</div>
+        <div class="product-actions">
+          <label for="quantity">Qty</label>
+          <input
+            type="number"
+            id="quantity"
+            name="quantity"
+            value="1"
+            min="1"
+            max="10"
+          />
+          <button class="add-to-cart">Add to Cart</button>
+          <button class="buy-now">Buy Now</button>
+        </div>
+        <div class="product-availability">
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="india" selected>India</option>
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+          </select>
+          <label for="pincode">Pincode</label>
+          <input type="text" id="pincode" name="pincode" placeholder="Check" />
+          <button class="check">Check</button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const urlParams = new URLSearchParams(window.location.search);
+      const productId = urlParams.get("id");
+
+      async function fetchProductDetails(productId) {
+        const response = await fetch(
+          `http://localhost:4000/products/${productId}`
+        );
+        const product = await response.json();
+        return product;
+      }
+
+      async function displayProductDetails() {
+        const product = await fetchProductDetails(productId);
+
+        document.title = product.Title;
+        document.getElementById("productName").innerText = product.Title;
+        document.getElementById(
+          "productPrice"
+        ).innerText = `Price: ₹${product.Price}`;
+        document.getElementById("productDescription").innerText =
+          product.Description;
+        document.getElementById("productImage").src = product.Image;
+        document.getElementById("productImage").alt = product.Title;
+
+        // Display the weight
+        document.querySelector(".weight").innerText = product.Weight;
+
+        const addToCartButton = document.querySelector(".add-to-cart");
+        addToCartButton.addEventListener("click", () => {
+          let cartItem = JSON.parse(localStorage.getItem("cartItem")) || [];
+          cartItem.push({
+            id: product.id,
+            title: product.Title,
+            price: product.Price,
+            quantity: parseInt(document.getElementById("quantity").value),
+          });
+          localStorage.setItem("cartItem", JSON.stringify(cartItem));
+          alert("Item added to cart!");
+        });
+      }
+
+      displayProductDetails();
+    </script>
+  </body>
+</html>

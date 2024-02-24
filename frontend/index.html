@@ -281,6 +281,11 @@
         data.forEach((element) => {
           let card = card_creator(element);
           card_container.append(card);
+
+          // Add click event listener to each card
+          card.addEventListener("click", () => {
+            window.location.href = `productinfo.html?id=${element.id}`;
+          });
         });
       }
 
@@ -307,7 +312,8 @@
         i.classList.add("fas", "fa-heart");
 
         heart_icon.append(i);
-        heart_icon.addEventListener("click", () => {
+        heart_icon.addEventListener("click", (event) => {
+          event.stopPropagation(); // Prevent the default behavior
           let wishlistItem =
             JSON.parse(localStorage.getItem("wishlistItem")) || [];
           wishlistItem.push(element);
@@ -332,7 +338,7 @@
         let card_price = document.createElement("div");
 
         card_price.classList.add("card-price");
-        card_price.innerText = `$${element.Price}`;
+        card_price.innerText = `₹${element.Price}`;
 
         let card_action = document.createElement("div");
 
@@ -341,6 +347,11 @@
         let button = document.createElement("button");
         button.classList.add("check-delivery-button");
         button.innerText = "Check Delivery Date";
+
+        // Add event listener to navigate to productinfo.html on button click
+        button.addEventListener("click", () => {
+          window.location.href = `productinfo.html?id=${element.id}`;
+        });
 
         card_action.append(button);
 
