@@ -1,12 +1,14 @@
-GET http://localhost:4000 
+GET http://localhost:4000/products 
+###
+GET http://localhost:4000/users
 ###
 POST http://localhost:4000/register
 Content-Type: application/json
 
 {
-    "email":"anuj822@gmail.com",
-    "password":"Admin@123",
-    "isAdmin":true
+    "email":"Mohan12@gmail.com",
+    "password":"Admin@17823",
+    "isAdmin":false
 }
 
 ###
@@ -14,6 +16,8 @@ POST http://localhost:4000/login
 Content-Type: application/json
 
 {
-    "email":"anuj4822@gmail.com",
-    "password":"Admin@123"
+    "email":"Rishank12@gmail.com",
+    "password":"Admin@17823"
 }
+
+# https://byte-adept-3456-2.onrender.com/
