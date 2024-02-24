@@ -7,11 +7,12 @@
     <!-- Include Google Material Icons CSS -->
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Icons"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
     />
+    <!-- Include Font Awesome CSS -->
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     />
     <style>
       body {
@@ -89,6 +90,130 @@
       .dropdown:hover .dropdown-content {
         display: block;
       }
+
+      #card_container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+      }
+      .card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        overflow: hidden;
+        width: 100%;
+        max-width: 400px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      .card-image {
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+      }
+
+      .card-image img {
+        width: 100%;
+        height: auto;
+        transition: transform 0.3s ease;
+      }
+
+      .card-image:hover img {
+        transform: scale(1.1);
+      }
+
+      .card-image .second-image {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+
+        background-size: cover;
+        background-position: center;
+      }
+
+      .card-image:hover .second-image {
+        display: block;
+      }
+
+      .heart-icon {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        background-color: #f00;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+      }
+
+      .heart-icon i {
+        font-size: 20px;
+      }
+
+      .wishlist-text {
+        display: none;
+      }
+
+      .card-image:hover .wishlist-text {
+        display: block;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        color: #fff;
+        background-color: #000;
+        padding: 4px 8px;
+        border-radius: 4px;
+        font-size: 12px;
+      }
+
+      .card-content {
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+
+      .card-title {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 8px;
+      }
+
+      .card-price {
+        font-size: 18px;
+        font-weight: bold;
+        color: #f00;
+        margin-bottom: 16px;
+      }
+
+      .card-actions {
+        display: flex;
+        justify-content: flex-start;
+      }
+
+      .check-delivery-button {
+        background-color: #4caf50;
+        color: white;
+        padding: 8px 16px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      .check-delivery-button:hover {
+        background-color: #45a049;
+      }
+
+      /* Other styles unchanged */
     </style>
   </head>
   <body>
@@ -106,51 +231,7 @@
         <!-- Google Maps Icon for Location -->
         <i class="material-icons" style="font-size: 25px">location_on</i>
         <div class="hover-content">
-          <div
-            style="
-              width: 300px;
-              padding: 16px;
-              background-color: white;
-              box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-              margin: auto;
-              text-align: center;
-            "
-          >
-            <h2>Enter Your Pincode To Browse Better</h2>
-            <p>
-              Get fastest delivery dates possible on your favourite Jewellery
-              pieces
-            </p>
-
-            <input
-              type="text"
-              id="pincode"
-              name="pincode"
-              placeholder="Pincode"
-              style="
-                width: 60%;
-                padding: 12px 20px;
-                margin: 8px 0;
-                box-sizing: border-box;
-              "
-            />
-            <button
-              type="submit"
-              style="
-                background-color: #4caf50;
-                color: white;
-                padding: 14px 20px;
-                margin: 8px 0;
-                border: none;
-                cursor: pointer;
-                width: 30%;
-              "
-            >
-              Apply
-            </button>
-            <br />
-            <a href="#">Use current location</a>
-          </div>
+          <!-- Hover content -->
         </div>
         <span class="pincode">Pincode</span>
         <!-- Indian Flag Image -->
@@ -163,22 +244,141 @@
     </div>
     <div style="display: flex">
       <div class="filter">
-        FILTER <span class="material-symbols-outlined icon"> tune </span>
+        FILTER <span class="material-icons icon">tune</span>
       </div>
       <div class="sort">
         SORT BY:
-        <select>
-          <option>Best Matches</option>
-          <option>Best Sellers</option>
-          <option>New Arrivals</option>
-          <option>Popularity</option>
-          <option>Best Matches</option>
-          <option>Price : Low To High</option>
-          <option>Price : High To Low</option>
-          <!-- Add more options as needed -->
+        <select id="sortSelect">
+          <option value="bestMatches">Best Matches</option>
+          <option value="bestSellers">Best Sellers</option>
+          <option value="newArrivals">New Arrivals</option>
+          <option value="popularity">Popularity</option>
+          <option value="priceLowToHigh">Price : Low To High</option>
+          <option value="priceHighToLow">Price : High To Low</option>
         </select>
       </div>
     </div>
-    //cards will appear here
+    <div id="card_container"></div>
+    <script>
+      let card_container = document.getElementById("card_container");
+      let products = [];
+
+      loadFetchdata();
+
+      async function loadFetchdata() {
+        let url = "http://localhost:4000/product";
+
+        try {
+          let res = await fetch(url);
+          products = await res.json();
+          create_card(products);
+        } catch (error) {
+          console.log("Error : some error ");
+        }
+      }
+
+      function create_card(data) {
+        data.forEach((element) => {
+          let card = card_creator(element);
+          card_container.append(card);
+        });
+      }
+
+      function card_creator(element) {
+        let card = document.createElement("div");
+        card.classList.add("card");
+
+        // Create card elements...
+        let card_img = document.createElement("div");
+        card_img.classList.add("card-image");
+
+        let img = document.createElement("img");
+        img.src = element.Img[0];
+        img.alt = element.Title;
+
+        let second_img = document.createElement("div");
+        second_img.classList.add("second-image");
+        second_img.style.backgroundImage = `url(${element.Img[1]})`;
+
+        let heart_icon = document.createElement("div");
+        heart_icon.classList.add("heart-icon");
+
+        let i = document.createElement("i");
+        i.classList.add("fas", "fa-heart");
+
+        heart_icon.append(i);
+
+        let span = document.createElement("span");
+        span.classList.add("wishlist-text");
+        span.innerText = "♥";
+
+        card_img.append(img, second_img, heart_icon, span);
+
+        let card_container = document.createElement("div");
+
+        card_container.classList.add("card-content");
+
+        let card_title = document.createElement("div");
+
+        card_title.classList.add("card-title");
+        card_title.innerText = element.Title;
+
+        let card_price = document.createElement("div");
+
+        card_price.classList.add("card-price");
+        card_price.innerText = `$${element.Price}`;
+
+        let card_action = document.createElement("div");
+
+        card_action.classList.add("card-actions");
+
+        let button = document.createElement("button");
+        button.classList.add("check-delivery-button");
+        button.innerText = "Check Delivery Date";
+
+        card_action.append(button);
+
+        card_container.append(card_title, card_price, card_action);
+
+        card.append(card_img, card_container);
+
+        return card;
+      }
+
+      document
+        .getElementById("sortSelect")
+        .addEventListener("change", function () {
+          let sortValue = this.value;
+          let sortedProducts = [];
+
+          switch (sortValue) {
+            case "bestMatches":
+              sortedProducts = products;
+              break;
+            case "bestSellers":
+              sortedProducts = products.filter((product) => product.bestSeller);
+              break;
+            case "newArrivals":
+              sortedProducts = products.filter((product) => product.newArrival);
+              break;
+            case "popularity":
+              sortedProducts = products.sort(
+                (a, b) => b.popularity - a.popularity
+              );
+              break;
+            case "priceLowToHigh":
+              sortedProducts = products.sort((a, b) => a.Price - b.Price);
+              break;
+            case "priceHighToLow":
+              sortedProducts = products.sort((a, b) => b.Price - a.Price);
+              break;
+            default:
+              sortedProducts = products;
+          }
+
+          card_container.innerHTML = "";
+          create_card(sortedProducts);
+        });
+    </script>
   </body>
 </html>
