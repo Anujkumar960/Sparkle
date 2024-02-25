@@ -8,24 +8,24 @@
 	<link rel="stylesheet" href="style.css" />
 	<title>Sign in & Sign up Form</title>
     <link rel="stylesheet" href="./login.css">
+	<script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div id="navbarContainer"></div>
-	<div class="container">
+    <div class="container">
 		<div class="forms-container">
 			<div class="signin-signup">
 				<form action="#" class="sign-in-form">
 					<h2 class="title">Sign in</h2>
 					<div class="input-field">
 						<i class="fas fa-user"></i>
-						<input id="loginuser" type="email" placeholder="Email" />
+						<input id="newUserEmail" type="email" placeholder="Email" />
 					</div>
 					<div class="input-field">
 						<i class="fas fa-lock"></i>
-						<input id="loginpassword" type="password" placeholder="Password" />
+						<input id="newUserPassword"  type="password" placeholder="Password" />
 					</div>
-					<input type="submit" value="Login" class="btn solid" />
+					<input id="signinBtn" type="submit" value="Login" class="btn solid" />
 					<p class="social-text">Or Sign in with social platforms</p>
 					<div class="social-media">
 						<a href="#" class="social-icon">
@@ -46,17 +46,17 @@
 					<h2 class="title">Sign up</h2>
 					<div class="input-field">
 						<i class="fas fa-user"></i>
-						<input id="sign-upuser" type="text" placeholder="Username" />
+						<input id="Username" type="text" placeholder="Username" />
 					</div>
 					<div class="input-field">
 						<i class="fas fa-envelope"></i>
-						<input id="signup-email" type="email" placeholder="Email" />
+						<input id="UserEmail" type="email" placeholder="Email" />
 					</div>
 					<div class="input-field">
 						<i class="fas fa-lock"></i>
-						<input id="signupPassword" type="password" placeholder="Password" />
+						<input id="UserPassword" type="password" placeholder="Password" />
 					</div>
-					<input type="submit" class="btn" value="Sign up" />
+					<input id="signupBtn" type="submit" class="btn" value="Sign up" />
 					<p class="social-text">Or Sign up with social platforms</p>
 					<div class="social-media">
 						<a href="#" class="social-icon">
@@ -81,7 +81,7 @@
 				<div class="content">
 					<h3>New to our community ?</h3>
 					<p>
-						Uncover boundless opportunities! Be part of our vibrant community where ideas flourish, and connections thrive. Join us today!.
+						Uncover boundless opportunities! Be part of our vibrant community where ideas flourish, and connections thrive. Join us today!
 					</p>
 					<button class="btn transparent" id="sign-up-btn">
 						Sign up
@@ -93,7 +93,7 @@
 				<div class="content">
 					<h3>One of Our Valued Members</h3>
 					<p>
-					   Gratitude for being with us! Your presence elevates our shared experiences. Let's journey onward together!
+						Gratitude for being with us! Your presence elevates our shared experiences. Let's journey onward together!
 					</p>
 					<button class="btn transparent" id="sign-in-btn">
 						Sign in
@@ -103,7 +103,6 @@
 			</div>
 		</div>
 	</div>
-
-	<script src="login.js"></script>
 </body>
+<script src="login.js"></script>
 </html>
