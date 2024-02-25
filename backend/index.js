@@ -3,16 +3,18 @@ const auth = require("json-server-auth");
 const server = jsonServer.create();
 const router = jsonServer.router("db.json");
 const middlewares = jsonServer.defaults();
+const cor= require('cors');
 
 server.db = router.db;
 
 // Set up the authentication middleware
 server.use(auth);
+server.use(cars());
 server.use(middlewares);
 server.use(router);
 
 const port = process.env.PORT || 4000;
 
 server.listen(port, () => {
-  console.log(`JSON Server with authentication is running on port ${port}`);
+  console.log(`JSON Server with authentication is running on port http://localhost:${port}`);
 });
