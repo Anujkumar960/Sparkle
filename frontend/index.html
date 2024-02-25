@@ -262,18 +262,33 @@
     <script>
       let card_container = document.getElementById("card_container");
       let products = [];
+      let page = 1;
+      let perPage = 15;
+      let isLoading = false;
 
       loadFetchdata();
 
       async function loadFetchdata() {
-        let url = "http://localhost:4000/products";
+        if (isLoading) return;
+        isLoading = true;
+
+        let url = `http://localhost:4000/products?_page=${page}&_limit=${perPage}`;
 
         try {
           let res = await fetch(url);
-          products = await res.json();
-          create_card(products);
+          let newProducts = await res.json();
+          if (newProducts.length === 0) {
+            // No more data to load
+            window.removeEventListener("scroll", handleScroll);
+            return;
+          }
+          products = [...products, ...newProducts];
+          create_card(newProducts);
+          page++;
+          isLoading = false;
         } catch (error) {
-          console.log("Error : some error ");
+          console.log("Error: ", error);
+          isLoading = false;
         }
       }
 
@@ -281,11 +296,6 @@
         data.forEach((element) => {
           let card = card_creator(element);
           card_container.append(card);
-
-          // Add click event listener to each card
-          card.addEventListener("click", () => {
-            window.location.href = `productinfo.html?id=${element.id}`;
-          });
         });
       }
 
@@ -361,6 +371,17 @@
 
         return card;
       }
+
+      function handleScroll() {
+        if (
+          window.innerHeight + window.scrollY >= document.body.offsetHeight &&
+          !isLoading
+        ) {
+          loadFetchdata();
+        }
+      }
+
+      window.addEventListener("scroll", handleScroll);
 
       document
         .getElementById("sortSelect")
