@@ -155,3 +155,53 @@ let card_container = document.getElementById("card_container");
           card_container.innerHTML = "";
           create_card(sortedProducts);
         });
+
+        // search addEventListener
+
+      
+        // function create_card(data) {
+        //   let searchInput = document
+        //     .getElementById("searchInIphone")
+        //     .value.toLowerCase();
+        
+        //   data.forEach((element) => {
+        //     if (element.Title.toLowerCase().includes(searchInput)) {
+        //       let card = card_creator(element);
+        //       card_container.append(card);
+        //     }
+        //   });
+        // }
+        
+        // document
+        //   .getElementById("searchInIphone")
+        //   .addEventListener("input", function () {
+        //     card_container.innerHTML = "";
+        //     create_card(products);
+        //   });
+        // function create_card(data,searchInIphone) {
+        //   // let searchInIphone = document.getElementById("searchInIphone")
+        //   let searchvalue = searchInIphone.value.toLowerCase();
+        
+        //   data.forEach((element) => {
+        //     if (element.Title.toLowerCase().includes(searchvalue)) {
+        //       let card = card_creator(element);
+        //       card_container.append(card);
+        //     }
+        //   });
+        // }
+        
+        // let searchInIphone = document.getElementById("searchInIphone")
+        // searchInIphone.addEventListener("input", ()=> {
+        //   card_container.innerHTML = "";
+        //   create_card(products,searchInIphone);
+        // })
+        
+        
+        
+          //////
+
+
+
+         // search addEventListener end
+
+        
