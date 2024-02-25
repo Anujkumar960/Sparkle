@@ -40,35 +40,98 @@ loginUserButton.addEventListener('click', () => {
   logIn();
 });
 
-
 async function logIn() {
-try {
-  let obj = {
-    "email": UserEmail.value,
-    "password": UserPassword.value,
-  };
-  
-  let res = await fetch(userLoginURL, {
-    method: "POST",
-    headers: {
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify(obj)
-  });
-  let data = await res.json();
-  console.log(data)
-  localStorage.setItem('localAccessToken', data.accessToken);
-  localStorage.setItem('userId', JSON.stringify(data.user.id));
-  console.log(data.accessToken,data.user.id);
-    if(data.user.isAdmin){
-     window.location.href = "../admin.html";
-    }else{
-      window.location.href = '../index.html';
-    }
-} catch (err) {
-  console.log(err);
+  let email =  UserEmail.value;
+  let password = UserPassword.value;
+  if (email && password) {
+      let credential = {
+          "email": email,
+          "password": password
+      }
+      try {
+          let response = await fetch(userLoginURL, {
+              method: 'POST',
+              headers: {
+                  'content-type': 'application/json',
+              },
+              body: JSON.stringify(credential),
+          });
+
+          let data = await response.json();
+
+          if (typeof data === 'object') {
+
+              console.log(data);
+              // createToast('success');
+
+              localStorage.setItem('userId', data.user.id);
+              localStorage.setItem('localAccessToken', data.accessToken);
+
+              if (data.user.isAdmin) {
+                console.log("Redirecting to admin page");
+                window.location.href =  `${baseURL}/admin.html`;
+              } else {
+                console.log("Redirecting to user page");
+                window.location.href = `${baseURL}/index.html`;
+              }
+          }
+          // else {
+          //     createToast('error');
+          // }
+
+      } catch (error) {
+          // createToast('error');
+          console.log('Error : Some error occurred', error);
+      }
+  }
+
+  // else {
+  //     createToast('error');
+  // }
 }
-}
+// async function logIn() {
+//   try {
+//     let obj = {
+//       "email": UserEmail.value,
+//       "password": UserPassword.value,
+//     };
+    
+//     let res = await fetch(userLoginURL, {
+//       method: "POST",
+//       headers: {
+//         'Content-Type': 'application/json',
+//       },
+//       body: JSON.stringify(obj)
+//     });
+//     let data = await res.json();
+//     console.log("Login response:", data);
+
+//     // Check if user data contains isAdmin property
+//     if (data && data.user && typeof data.user.isAdmin === 'boolean') {
+//       // Store access token and user ID in local storage
+//       localStorage.setItem('localAccessToken', data.accessToken);
+//       localStorage.setItem('userId', JSON.stringify(data.user.id));
+
+//       // Redirect based on isAdmin property
+//       if (data.user.isAdmin) {
+//         console.log("Redirecting to admin page");
+//         window.location.href = "../admin.html";
+//       } else {
+//         console.log("Redirecting to user page");
+//         window.location.href = '../index.html';
+//       }
+//     } else {
+//       console.error("Invalid user data:", data);
+//       // Redirect to an error page or display an error message
+//       window.location.href = '../error.html';
+//     }
+//   } catch (err) {
+//     console.error("Login error:", err);
+//     // Redirect to an error page or display an error message
+//     window.location.href = '../error.html';
+//   }
+// }
+
 
 
 async function SignUp() {
