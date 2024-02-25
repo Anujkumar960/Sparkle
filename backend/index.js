@@ -9,7 +9,7 @@ server.db = router.db;
 
 // Set up the authentication middleware
 server.use(auth);
-server.use(cars());
+server.use(cors());
 server.use(middlewares);
 server.use(router);
 
