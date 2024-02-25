@@ -1,0 +1,165 @@
+#wishlistBody{
+    width: 80%;
+    height: 65%;
+    background-color: #ffffff;
+    /* position: relative; */
+    justify-content: center;
+    font-family: Nunito Sans;
+    /* margin-top: 10%; */
+    margin-left: 10%;
+}
+#wishlistMidSection{
+    width: 100%;
+    border-top: 0.5px solid rgb(224, 218, 218);
+    display: flex;
+    position: relative;
+    /* position: absolute; */
+   
+}
+#wishlistMenu{
+    border-right: 0.5px solid rgb(224, 218, 218);
+    width: 19%;
+    height: 100%;
+    /* background-color: rgb(108, 82, 132); */
+    
+}
+.wishlistMenuText{
+    /* height: 20%; */
+    border-bottom: 0.8px solid rgb(224, 218, 218);
+    width: 90%;
+   /* align-items: center; */
+   /* margin-top: 5%; */
+   padding: 5%;
+    /* display: flex;
+    flex-direction: row; */
+}
+
+.wishlistMenuText a{
+    margin-left: 8%;
+    text-decoration: none;
+    color: black;
+    font-weight: 90rem;;
+   
+}
+#wishlistCards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:5%;
+    width: 80%;
+    position: relative;
+}
+.wishlist_card{
+    width: 30%;
+    height: 100%;
+   border: 1px solid rgb(184, 184, 184);
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 10%;
+    padding: 1%;
+}
+.wishlist_card:hover{
+    cursor: pointer;
+}
+.wishlist_card img{
+width:100%;
+ height:69%;
+}
+.wishlist_card_p{
+    margin-top: 9%;
+}
+.wishlist_card_p p{
+    margin: 0.5%;
+}
+ #removeWishlist{
+    position: absolute; 
+   top: 10%; 
+    left: 75%; 
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+    padding:2% 4%;
+}
+#removeWishlist:hover::before {
+    content: "Remove";
+    position: absolute;
+    top: -2%; /* Adjust the positioning of the message */
+    left: 70%; /* Adjust the positioning of the message */
+    background-color:brown; /* Adjust the background color */
+    color: #fff; /* Adjust the text color */
+    padding: 2% 4%; /* Adjust the padding */
+    border-radius: 4%; /* Add border radius for rounded corners */
+    white-space: nowrap; /* Prevent line break in the message */
+}
+.wishlist_addtocart:hover::before{
+cursor: pointer;
+content: "Pick Size and Weight";
+position: absolute;
+  border: 1px solid brown;
+    background-color: rgba(255, 255, 255, 0.8);
+    color:brown; 
+    /* padding: 2% 4%;  */
+    border-radius: 3%; 
+    white-space: nowrap;
+    width: 89%;
+    text-align: center;
+    padding: 2.5%;
+    margin-top: -2.7%;
+    margin-left: -30.5%;
+}
+
+.fa-regular.fa-trash-can {
+    color: brown;
+}
+
+.wishlist_addtocart {
+    color: bisque;
+    background-color: brown;
+    text-align: center;
+    padding: 3%;
+    border-radius: 3%;
+    border: none;
+    width: 100%;
+}
+/* #actionBtn{
+    display: flex;
+    /* gap: 5%; */
+    /* justify-content: space-around; */
+/* } */ 
+#initialwishlist{
+    display: flex;
+    gap: 25%;
+}
+/* .yourWish {
+    margin-left: 25%;
+} */
+
+
+.btnToContinue {
+    color: blanchedalmond;
+    background-color: brown;
+    display: inline-block;
+    padding: 7% 20%;
+    margin-top: 3%;
+    border-radius: 0.2em;
+}
+
+.emptyWish {
+    text-align: center;
+    white-space: nowrap; /* Prevent line breaks*/
+    margin-top: 25%;
+    font-size: 1em;
+    line-height: 0.6rem;
+font-weight: 700;
+}
+.emptyWish p{
+    font-size: 0.8em;
+}
+
+.fa-regular.fa-trash-can {
+    font-size: 120%; 
+}
+.truncat-text{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

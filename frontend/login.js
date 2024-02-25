@@ -48,7 +48,7 @@ sign_in_btn.addEventListener('click', () => {
 async function logIn() {
   try {
     let obj = {
-      "username": loginuser.value,
+      "email": loginuser.value,
       "password": loginpassword.value,
     };
     

@@ -1,640 +1,623 @@
 {
   "users": [
-    {  
-      "username":"Rohan75",
+    {
+      "username": "Rohan75",
       "email": "rohan822@gmail.com",
       "password": "$2a$10$WHENtoshGG4LWchUuGDPvORHi5Fj0i8rhNJzsLVznhMwk68bI6OS.",
       "isAdmin": true,
       "id": 1
     },
-    { 
-      "username":"Sohan75",
+    {
+      "username": "Sohan75",
       "email": "Sohan87825@gmail.com",
       "password": "$2a$10$k0q.N.EGAHJozfaBjaNcjOCgS2UAgYceSbCmPwbNDS8gpgkoPJxwS",
       "isAdmin": true,
       "id": 2
     },
     {
-      "username":"Rishank589",
+      "username": "Rishank589",
       "email": "Rishank12@gmail.com",
       "password": "$2a$10$28Nc97.pHwY1Tqur.Ti0keZh0fDqE6KBPq20OVV9y6XDoel0NJ0nW",
       "isAdmin": true,
       "id": 3
     },
-    { 
-      "username":"Surabhi75",
+    {
+      "username": "Surabhi75",
       "email": "Surabhi12@gmail.com",
       "password": "$2a$10$WtdmAUlK5DzQwg11ZR87zeUxezNKaam6jnmDYJ6BBoWtuH1/1PIAW",
       "isAdmin": false,
       "id": 4
     },
-    { 
-      "username":"Shayam12",
+    {
+      "username": "Shayam12",
       "email": "Shayam12@gmail.com",
       "password": "$2a$10$awGmzLAhrfYh77xH0kjJPuTIgyeLeRsxsohXApIMdfpuaEBeGO9Ki",
       "isAdmin": false,
       "id": 5
     },
-    { 
-      "username":"Mohan12",
+    {
+      "username": "Mohan12",
       "email": "Mohan12@gmail.com",
       "password": "$2a$10$y8M7ehHt9eXhxgapFc8Az.7nfPnucdP2DKN0yPS5s7hwAOBOkb7m6",
       "isAdmin": false,
       "id": 6
+    },
+    {
+      "email": "Mohan82@gmail.com",
+      "password": "$2a$10$qmqX7y.32R/e9UgIyOFwQuiWgHPXTIWhkdZ21tmT6J7VsYHpSKnRC",
+      "username": "Mohan82",
+      "isAdmin": false,
+      "id": 7
     }
   ],
   "products": [
     {
-       "id": 1,
-       "Title": "Sleek Gold Bangle",
-       "Description": "Choose simplicity and elegance with this minimally designed sleek gold bangle, meticulously crafted in 22 karat yellow gold.",
-       "Type": "Bangle",
-       "Weight": "10.268 g",
-       "Price":75196,
-       "DiscountPrice": 72550,
-       "Img": [
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw83070ddd/images/hi-res/510228VEA1A00_1.jpg?sw=115&sh=115",
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dweb44d6cb/images/hi-res/510228VEA1A00_2.jpg?sw=115&sh=115",
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwe9a41f10/images/hi-res/510228VEA1A00_3.jpg?sw=115&sh=115"
-       ],
-       "Brand": "Tanishq"
-     },
+      "id": 1,
+      "Title": "Sleek Gold Bangle",
+      "Description": "Choose simplicity and elegance with this minimally designed sleek gold bangle, meticulously crafted in 22 karat yellow gold.",
+      "Type": "Bangle",
+      "Weight": "10.268 g",
+      "Price": 75196,
+      "DiscountPrice": 72550,
+      "Img": [
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw83070ddd/images/hi-res/510228VEA1A00_1.jpg?sw=115&sh=115",
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dweb44d6cb/images/hi-res/510228VEA1A00_2.jpg?sw=115&sh=115",
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwe9a41f10/images/hi-res/510228VEA1A00_3.jpg?sw=115&sh=115"
+      ],
+      "Brand": "Tanishq"
+    },
     {
-       "id": 2,
-       "Title": "Stop & Play Diamond Ring",
-       "Description": "Embrace your love for music with this stop and play motif ring crafted in 18 karat rose gold, studded with diamonds. Stone Clarity: I1/I2.",
-       "Type": "Ring",
-       "Weight": "1.27 g",
-       "Price":20173,
-       "DiscountPrice":19000,
-       "Img": [
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwe6dcc782/images/hi-res/50D2CAFBIAA09_1.jpg?sw=115&sh=115",
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw9c7fba1d/images/hi-res/50D2CAFBIAA09_2.jpg?sw=115&sh=115",
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw695831aa/images/hi-res/50D2CAFBIAA09_3.jpg?sw=115&sh=115"
-       ],
-       "Brand": "Tanishq"
-     },
+      "id": 2,
+      "Title": "Stop & Play Diamond Ring",
+      "Description": "Embrace your love for music with this stop and play motif ring crafted in 18 karat rose gold, studded with diamonds. Stone Clarity: I1/I2.",
+      "Type": "Ring",
+      "Weight": "1.27 g",
+      "Price": 20173,
+      "DiscountPrice": 19000,
+      "Img": [
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwe6dcc782/images/hi-res/50D2CAFBIAA09_1.jpg?sw=115&sh=115",
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw9c7fba1d/images/hi-res/50D2CAFBIAA09_2.jpg?sw=115&sh=115",
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw695831aa/images/hi-res/50D2CAFBIAA09_3.jpg?sw=115&sh=115"
+      ],
+      "Brand": "Tanishq"
+    },
     {
-       "id": 3,
-       "Title": "Fashionable Diamond Bangle",
-       "Description": "Accentuate your Modern Wear with this Delicate Diamond Bangle Crafted in 18 Karat Yellow and White Gold which elevate your style. Stone clarity SI2",
-       "Type": "Bangle",
-       "Weight": "7.273 g",
-       "Price":87145,
-       "DiscountPrice":86141,
-       "Img": [
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw65fd7088/images/hi-res/50D1D1VEM1S02_1.jpg?sw=115&sh=115",
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw7f8cf2d5/images/hi-res/50D1D1VEM1S02_2.jpg?sw=115&sh=115",
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw3cce628a/images/hi-res/50D1D1VEM1S02_3.jpg?sw=115&sh=115"
-       ],
-       "Brand": "Tanishq"
-     },
+      "id": 3,
+      "Title": "Fashionable Diamond Bangle",
+      "Description": "Accentuate your Modern Wear with this Delicate Diamond Bangle Crafted in 18 Karat Yellow and White Gold which elevate your style. Stone clarity SI2",
+      "Type": "Bangle",
+      "Weight": "7.273 g",
+      "Price": 87145,
+      "DiscountPrice": 86141,
+      "Img": [
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw65fd7088/images/hi-res/50D1D1VEM1S02_1.jpg?sw=115&sh=115",
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw7f8cf2d5/images/hi-res/50D1D1VEM1S02_2.jpg?sw=115&sh=115",
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw3cce628a/images/hi-res/50D1D1VEM1S02_3.jpg?sw=115&sh=115"
+      ],
+      "Brand": "Tanishq"
+    },
     {
-       "id": 4,
-       "Title": "Shimmering Hexagon Diamond Drop Earrings",
-       "Description": "A shimmering hexagon is embedded inside a hexagon in these diamond studded drop earrings crafted in 18 karat yellow gold. Stone Clarity: I1/I2.",
-       "Type": "Earrings",
-       "Weight": "2.928 g",
-       "Price":39733,
-       "DiscountPrice":36799,
-       "Img": [
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw0f61b6ec/images/hi-res/50D2FFDNCAGA09_1.jpg?sw=115&sh=115",
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwaf24a23e/images/hi-res/50D2FFDNCAGA09_2.jpg?sw=115&sh=115",
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw6e871b8b/images/hi-res/50D2FFDNCAGA09_3.jpg?sw=115&sh=115"
-       ],
-       "Brand": "Tanishq"
-     },
+      "id": 4,
+      "Title": "Shimmering Hexagon Diamond Drop Earrings",
+      "Description": "A shimmering hexagon is embedded inside a hexagon in these diamond studded drop earrings crafted in 18 karat yellow gold. Stone Clarity: I1/I2.",
+      "Type": "Earrings",
+      "Weight": "2.928 g",
+      "Price": 39733,
+      "DiscountPrice": 36799,
+      "Img": [
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw0f61b6ec/images/hi-res/50D2FFDNCAGA09_1.jpg?sw=115&sh=115",
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwaf24a23e/images/hi-res/50D2FFDNCAGA09_2.jpg?sw=115&sh=115",
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw6e871b8b/images/hi-res/50D2FFDNCAGA09_3.jpg?sw=115&sh=115"
+      ],
+      "Brand": "Tanishq"
+    },
     {
-       "id": 5,
-       "Title": "Luminous Swirls Diamond Pendant",
-       "Description": "Interrupted swirls of luminous gold are encrusted with tiny diamonds in this artistic pendant, crafted in 18 karat rose gold. Stone Clarity: SI2.",
-       "Type": "Pendant",
-       "Weight": "1.374 g",
-       "Price":43732,
-       "DiscountPrice":41723,
-       "Img": [
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw4d296482/images/hi-res/506060PKLAAA02_1.jpg?sw=115&sh=115",
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwd3e19672/images/hi-res/506060PKLAAA02_2.jpg?sw=115&sh=115",
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwe02b5e33/images/hi-res/506060PKLAAA02_3.jpg?sw=115&sh=115"
-       ],
-       "Brand": "Tanishq"
-     },
+      "id": 5,
+      "Title": "Luminous Swirls Diamond Pendant",
+      "Description": "Interrupted swirls of luminous gold are encrusted with tiny diamonds in this artistic pendant, crafted in 18 karat rose gold. Stone Clarity: SI2.",
+      "Type": "Pendant",
+      "Weight": "1.374 g",
+      "Price": 43732,
+      "DiscountPrice": 41723,
+      "Img": [
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw4d296482/images/hi-res/506060PKLAAA02_1.jpg?sw=115&sh=115",
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwd3e19672/images/hi-res/506060PKLAAA02_2.jpg?sw=115&sh=115",
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwe02b5e33/images/hi-res/506060PKLAAA02_3.jpg?sw=115&sh=115"
+      ],
+      "Brand": "Tanishq"
+    },
     {
-       "id": 6,
-       "Title":"Glimmering Gold Pendant",
-       "Description": "Add a resplendent gleam to your outfit with this 22 Karat Gold Mangalsutra Pendant in glossy finish.",
-       "Type": "Pendant",
-       "Weight": "3.852 g",
-       "Price":29757,
-       "DiscountPrice":27999,
-       "Img": [
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwd4634c04/images/hi-res/511518PLCAAA00.jpg?sw=115&sh=115",
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw2998a3ae/images/hi-res/511518PLCAAA00_1.jpg?sw=115&sh=115",
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwd4634c04/images/hi-res/511518PLCAAA00.jpg?sw=115&sh=115"
-       ],
-       "Brand": "Tanishq"
-     },
+      "id": 6,
+      "Title": "Glimmering Gold Pendant",
+      "Description": "Add a resplendent gleam to your outfit with this 22 Karat Gold Mangalsutra Pendant in glossy finish.",
+      "Type": "Pendant",
+      "Weight": "3.852 g",
+      "Price": 29757,
+      "DiscountPrice": 27999,
+      "Img": [
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwd4634c04/images/hi-res/511518PLCAAA00.jpg?sw=115&sh=115",
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw2998a3ae/images/hi-res/511518PLCAAA00_1.jpg?sw=115&sh=115",
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwd4634c04/images/hi-res/511518PLCAAA00.jpg?sw=115&sh=115"
+      ],
+      "Brand": "Tanishq"
+    },
     {
-       "id": 7,
-       "Title":"Breathtaking 22 Karat Yellow Gold Floral Motif Finger Ring",
-       "Description": "This eye-pleasing 22 Karat ring features a glossy yellow gold finish, enveloping blooming floral motif accented with leaf cutouts.",
-       "Type": "Ring",
-       "Weight": "3.801 g",
-       "Price":30067,
-       "DiscountPrice":28734,
-       "Img": [
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw0a3a7eed/images/hi-res/511920FAOAA00.jpg?sw=115&sh=115",
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwada93044/images/hi-res/511920FAOAA00_2.jpg?sw=115&sh=115",
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw933d0a1c/images/hi-res/511920FAOAA00_1.jpg?sw=115&sh=115"
-       ],
-       "Brand": "Tanishq"
-     },
+      "id": 7,
+      "Title": "Breathtaking 22 Karat Yellow Gold Floral Motif Finger Ring",
+      "Description": "This eye-pleasing 22 Karat ring features a glossy yellow gold finish, enveloping blooming floral motif accented with leaf cutouts.",
+      "Type": "Ring",
+      "Weight": "3.801 g",
+      "Price": 30067,
+      "DiscountPrice": 28734,
+      "Img": [
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw0a3a7eed/images/hi-res/511920FAOAA00.jpg?sw=115&sh=115",
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwada93044/images/hi-res/511920FAOAA00_2.jpg?sw=115&sh=115",
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw933d0a1c/images/hi-res/511920FAOAA00_1.jpg?sw=115&sh=115"
+      ],
+      "Brand": "Tanishq"
+    },
     {
-       "id": 8,
-       "Title": "Striking Round Gold and Diamond Pendant",
-       "Description": "Wrap goodness around your neck with this radiant pendant crafted in 18 Karat Yellow Gold with diamonds. Stone Clarity I1I2.",
-       "Type": "Pendant",
-       "Weight": "1.346 g",
-       "Price":42513 ,
-       "DiscountPrice":39900,
-       "Img": [
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw57702981/images/hi-res/503120PDTAAA09_1.jpg?sw=115&sh=115",
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwf6fe8300/images/hi-res/503120PDTAAA09_2.jpg?sw=115&sh=115",
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw4576cc15/images/hi-res/503120PDTAAA09_3.jpg?sw=115&sh=115"
-       ],
-       "Brand": "Tanishq"
-     },
+      "id": 8,
+      "Title": "Striking Round Gold and Diamond Pendant",
+      "Description": "Wrap goodness around your neck with this radiant pendant crafted in 18 Karat Yellow Gold with diamonds. Stone Clarity I1I2.",
+      "Type": "Pendant",
+      "Weight": "1.346 g",
+      "Price": 42513,
+      "DiscountPrice": 39900,
+      "Img": [
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw57702981/images/hi-res/503120PDTAAA09_1.jpg?sw=115&sh=115",
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwf6fe8300/images/hi-res/503120PDTAAA09_2.jpg?sw=115&sh=115",
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw4576cc15/images/hi-res/503120PDTAAA09_3.jpg?sw=115&sh=115"
+      ],
+      "Brand": "Tanishq"
+    },
     {
-       "id": 9,
-       "Title": "Stunning Mesh Pendant",
-       "Description": "Enjoy the subtleties in life with this stunning mesh pattern pendant, which has been crafted in 22 karat yellow gold.",
-       "Type": "Pendant",
-       "Weight": "2.729 g",
-       "Price":21335,
-       "DiscountPrice":20799,
-       "Img": [
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw4d658142/images/hi-res/51D3B3PTVAAA00_1.jpg?sw=115&sh=115",
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw1ad9ab16/images/hi-res/51D3B3PTVAAA00_2.jpg?sw=115&sh=115"
-       
-       ],
-       "Brand": "Tanishq"
-     },
+      "id": 9,
+      "Title": "Stunning Mesh Pendant",
+      "Description": "Enjoy the subtleties in life with this stunning mesh pattern pendant, which has been crafted in 22 karat yellow gold.",
+      "Type": "Pendant",
+      "Weight": "2.729 g",
+      "Price": 21335,
+      "DiscountPrice": 20799,
+      "Img": [
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw4d658142/images/hi-res/51D3B3PTVAAA00_1.jpg?sw=115&sh=115",
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw1ad9ab16/images/hi-res/51D3B3PTVAAA00_2.jpg?sw=115&sh=115"
+      ],
+      "Brand": "Tanishq"
+    },
     {
-       "id": 10,
-       "Title": "Radial Mesh Pearl and Diamond Pendant",
-       "Description": "A stunning pearl sits on a radial mesh pattern in this pendant, crafted in 18 karat rose gold, studded with diamonds. Stone Clarity: I1/I2.",
-       "Type": "Pendant",
-       "Weight": "1.728 g",
-       "Price":32102 ,
-       "DiscountPrice":31999,
-       "Img": [
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwb61ca4ed/images/hi-res/50D3I1PRRAAA29_1.jpg?sw=115&sh=115",
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwd177ab4b/images/hi-res/50D3I1PRRAAA29_2.jpg?sw=115&sh=115"
-        
-       ],
-       "Brand": "Tanishq"
-     },
+      "id": 10,
+      "Title": "Radial Mesh Pearl and Diamond Pendant",
+      "Description": "A stunning pearl sits on a radial mesh pattern in this pendant, crafted in 18 karat rose gold, studded with diamonds. Stone Clarity: I1/I2.",
+      "Type": "Pendant",
+      "Weight": "1.728 g",
+      "Price": 32102,
+      "DiscountPrice": 31999,
+      "Img": [
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwb61ca4ed/images/hi-res/50D3I1PRRAAA29_1.jpg?sw=115&sh=115",
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwd177ab4b/images/hi-res/50D3I1PRRAAA29_2.jpg?sw=115&sh=115"
+      ],
+      "Brand": "Tanishq"
+    },
     {
-       "id": 11,
-       "Title": "Delicate Evil Eye Diamond Bracelet",
-       "Description": "Keep yourself safe and elegant at the same time with this evil eye bracelet crafted in 18 karat rose gold, studded with diamonds. Stone Clarity SI2.",
-       "Type": "Bracelet",
-       "Weight": "2.518 g",
-       "Price":40999,
-       "DiscountPrice":37879,
-       "Img": [
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwdb1877f4/images/hi-res/50F2EEBAAAA32.jpg?sw=115&sh=115",
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw1edf00d4/images/hi-res/50F2EEBAAAA32_1.jpg?sw=115&sh=115"
-         
-       ],
-       "Brand": "Tanishq"
-     },
+      "id": 11,
+      "Title": "Delicate Evil Eye Diamond Bracelet",
+      "Description": "Keep yourself safe and elegant at the same time with this evil eye bracelet crafted in 18 karat rose gold, studded with diamonds. Stone Clarity SI2.",
+      "Type": "Bracelet",
+      "Weight": "2.518 g",
+      "Price": 40999,
+      "DiscountPrice": 37879,
+      "Img": [
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwdb1877f4/images/hi-res/50F2EEBAAAA32.jpg?sw=115&sh=115",
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw1edf00d4/images/hi-res/50F2EEBAAAA32_1.jpg?sw=115&sh=115"
+      ],
+      "Brand": "Tanishq"
+    },
     {
-       "id": 12,
-       "Title": "Timeless Dori Powai Necklace Set",
-       "Description": "Experience opulence with the Dori Powai Necklace Set, featuring exquisite rasrawa, chandak, and wire work on 22 karat yellow gold..",
-       "Type": "Necklace Set",
-       "Weight": "56.82 g",
-       "Price":461759,
-       "DiscountPrice":43798,
-       "Img": [
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw67b099eb/images/hi-res/51OXDH2BY1BA00_1.jpg?sw=115&sh=115",
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw4faff557/images/hi-res/51OXDH2BY1BA00_2.jpg?sw=115&sh=115"      ],
-       "Brand": "Tanishq"
-     },
+      "id": 12,
+      "Title": "Timeless Dori Powai Necklace Set",
+      "Description": "Experience opulence with the Dori Powai Necklace Set, featuring exquisite rasrawa, chandak, and wire work on 22 karat yellow gold..",
+      "Type": "Necklace Set",
+      "Weight": "56.82 g",
+      "Price": 461759,
+      "DiscountPrice": 43798,
+      "Img": [
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw67b099eb/images/hi-res/51OXDH2BY1BA00_1.jpg?sw=115&sh=115",
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw4faff557/images/hi-res/51OXDH2BY1BA00_2.jpg?sw=115&sh=115"
+      ],
+      "Brand": "Tanishq"
+    },
     {
-       "id": 13,
-       "Title": "Lovely Chic Necklace Set",
-       "Description": "Be a stunning presence when you don this lovely necklace set, crafted in 22 karat yellow gold.",
-       "Type": "Necklace Set",
-       "Weight": "10.927 g",
-       "Price":89476,
-       "DiscountPrice":86999,
-       "Img": [
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw52f65a28/images/hi-res/51D3B12OSABA00_1.jpg?sw=115&sh=115",
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwdd1332f2/images/hi-res/51D3B12OSABA00_2.jpg?sw=115&sh=115"
-       ],
-       "Brand": "Tanishq"
-     },
+      "id": 13,
+      "Title": "Lovely Chic Necklace Set",
+      "Description": "Be a stunning presence when you don this lovely necklace set, crafted in 22 karat yellow gold.",
+      "Type": "Necklace Set",
+      "Weight": "10.927 g",
+      "Price": 89476,
+      "DiscountPrice": 86999,
+      "Img": [
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw52f65a28/images/hi-res/51D3B12OSABA00_1.jpg?sw=115&sh=115",
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwdd1332f2/images/hi-res/51D3B12OSABA00_2.jpg?sw=115&sh=115"
+      ],
+      "Brand": "Tanishq"
+    },
     {
-       "id": 14,
-       "Title": "Distinctive Yellow Gold Etched Necklace and Earrings Set",
-       "Description": "This lush 22 Karat gold Necklace set features a chain of discs each embossed with a faceted square suspending 1 disc with 3 hanging bead charms.",
-       "Type": "Necklace and Earrings Set",
-       "Weight": "14.508 g",
-       "Price":112074,
-       "DiscountPrice":110000,
-       "Img": [
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw7f4128ed/images/hi-res/5110292INAAB00_1.jpg?sw=115&sh=115",
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw77ac60db/images/hi-res/5110292INAAB00_2.jpg?sw=115&sh=115"
-       ],
-       "Brand": "Tanishq"
-     },
+      "id": 14,
+      "Title": "Distinctive Yellow Gold Etched Necklace and Earrings Set",
+      "Description": "This lush 22 Karat gold Necklace set features a chain of discs each embossed with a faceted square suspending 1 disc with 3 hanging bead charms.",
+      "Type": "Necklace and Earrings Set",
+      "Weight": "14.508 g",
+      "Price": 112074,
+      "DiscountPrice": 110000,
+      "Img": [
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw7f4128ed/images/hi-res/5110292INAAB00_1.jpg?sw=115&sh=115",
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw77ac60db/images/hi-res/5110292INAAB00_2.jpg?sw=115&sh=115"
+      ],
+      "Brand": "Tanishq"
+    },
     {
-       "id": 15,
-       "Title": "Classical Yellow Gold Beaded Necklace and Earrings Set",
-       "Description": "This grand 22 Karat gold Necklace set features a matte gold arc lined with polished Rava balls and 6 gold dual-textured leaves, on a beaded gold chain.",
-       "Type": "Necklace and Earrings Set",
-       "Weight": "18.207 g",
-       "Price":139524,
-       "DiscountPrice":136544,
-       "Img": [
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw477bb4a4/images/hi-res/5106012KAAAA00_1.jpg?sw=115&sh=115",
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw1f7abe9a/images/hi-res/5106012KAAAA00_2.jpg?sw=115&sh=115"
-        
-       ],
-       "Brand": "Tanishq"
-     },
+      "id": 15,
+      "Title": "Classical Yellow Gold Beaded Necklace and Earrings Set",
+      "Description": "This grand 22 Karat gold Necklace set features a matte gold arc lined with polished Rava balls and 6 gold dual-textured leaves, on a beaded gold chain.",
+      "Type": "Necklace and Earrings Set",
+      "Weight": "18.207 g",
+      "Price": 139524,
+      "DiscountPrice": 136544,
+      "Img": [
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw477bb4a4/images/hi-res/5106012KAAAA00_1.jpg?sw=115&sh=115",
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw1f7abe9a/images/hi-res/5106012KAAAA00_2.jpg?sw=115&sh=115"
+      ],
+      "Brand": "Tanishq"
+    },
     {
-       "id": 16,
-       "Title": "Intricate Gold Necklace Set",
-       "Description": "Nature Inspired Necklace and Earrings Set Crafted in 22 Karat Yellow Gold.",
-       "Type": "Necklace Set",
-       "Weight": "15.054 g",
-       "Price":115362,
-       "DiscountPrice":112399,
-       "Img": [
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwa53a2317/images/hi-res/5122202LD1BA00_1.jpg?sw=115&sh=115",
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw7d97ec7d/images/hi-res/5122202LD1BA00_2.jpg?sw=115&sh=115"
-         
-       ],
-       "Brand": "Tanishq"
-     },
+      "id": 16,
+      "Title": "Intricate Gold Necklace Set",
+      "Description": "Nature Inspired Necklace and Earrings Set Crafted in 22 Karat Yellow Gold.",
+      "Type": "Necklace Set",
+      "Weight": "15.054 g",
+      "Price": 115362,
+      "DiscountPrice": 112399,
+      "Img": [
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwa53a2317/images/hi-res/5122202LD1BA00_1.jpg?sw=115&sh=115",
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw7d97ec7d/images/hi-res/5122202LD1BA00_2.jpg?sw=115&sh=115"
+      ],
+      "Brand": "Tanishq"
+    },
     {
-       "id": 17,
-       "Title": "Stunning Gold Necklace Set",
-       "Description": "Traditional Necklace and Earrings Set Crafted in 22 Karat Yellow Gold.",
-       "Type": "Necklace Set",
-       "Weight": "15.683 g",
-       "Price":121151,
-       "DiscountPrice":12000,
-       "Img": [
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwa74a131c/images/hi-res/5122202KW1BA00_1.jpg?sw=115&sh=115",
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwddb1104a/images/hi-res/5122202KW1BA00_2.jpg?sw=115&sh=115"
-        
-       ],
-       "Brand": "Tanishq"
-     },
+      "id": 17,
+      "Title": "Stunning Gold Necklace Set",
+      "Description": "Traditional Necklace and Earrings Set Crafted in 22 Karat Yellow Gold.",
+      "Type": "Necklace Set",
+      "Weight": "15.683 g",
+      "Price": 121151,
+      "DiscountPrice": 12000,
+      "Img": [
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwa74a131c/images/hi-res/5122202KW1BA00_1.jpg?sw=115&sh=115",
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwddb1104a/images/hi-res/5122202KW1BA00_2.jpg?sw=115&sh=115"
+      ],
+      "Brand": "Tanishq"
+    },
     {
-       "id": 18,
-       "Title": "Leafy Radiance Diamond Bangle",
-       "Description": "Sleek with the radiance of leaves, this bangle is crafted in 18 karat yellow gold, studded with diamonds. Stone Clarity: SI2.",
-       "Type": "Bangle",
-       "Weight": "6.27 g",
-       "Price":64761,
-       "DiscountPrice":62151,
-       "Img": [
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwc21fcbf0/images/hi-res/50D3B3VOC1A02_1.jpg?sw=115&sh=115",
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwdc0b3082/images/hi-res/50D3B3VOC1A02_2.jpg?sw=115&sh=115"
-         
-       ],
-       "Brand": "Tanishq"
-     },
+      "id": 18,
+      "Title": "Leafy Radiance Diamond Bangle",
+      "Description": "Sleek with the radiance of leaves, this bangle is crafted in 18 karat yellow gold, studded with diamonds. Stone Clarity: SI2.",
+      "Type": "Bangle",
+      "Weight": "6.27 g",
+      "Price": 64761,
+      "DiscountPrice": 62151,
+      "Img": [
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwc21fcbf0/images/hi-res/50D3B3VOC1A02_1.jpg?sw=115&sh=115",
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwdc0b3082/images/hi-res/50D3B3VOC1A02_2.jpg?sw=115&sh=115"
+      ],
+      "Brand": "Tanishq"
+    },
     {
-       "id": 19,
-       "Title":"Sleek Radiance Diamond Bangle",
-       "Description": "Strike a balance between elegance and grandeur with is overlapping bangle crafted in 18 karat rose gold, studded with diamonds. Stone Clarity: SI2.",
-       "Type": "Bangle",
-       "Weight": "6.656 g",
-       "Price":112278,
-       "DiscountPrice":111199,
-       "Img": [
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw0891cd0d/images/hi-res/50D2BIVON1A02_1.jpg?sw=115&sh=115",
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwcec1a284/images/hi-res/50D2BIVON1A02_2.jpg?sw=115&sh=115"
-        
-       ],
-       "Brand": "Tanishq"
-     },
+      "id": 19,
+      "Title": "Sleek Radiance Diamond Bangle",
+      "Description": "Strike a balance between elegance and grandeur with is overlapping bangle crafted in 18 karat rose gold, studded with diamonds. Stone Clarity: SI2.",
+      "Type": "Bangle",
+      "Weight": "6.656 g",
+      "Price": 112278,
+      "DiscountPrice": 111199,
+      "Img": [
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw0891cd0d/images/hi-res/50D2BIVON1A02_1.jpg?sw=115&sh=115",
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwcec1a284/images/hi-res/50D2BIVON1A02_2.jpg?sw=115&sh=115"
+      ],
+      "Brand": "Tanishq"
+    },
     {
-       "id": 20,
-       "Title": " Sleek Diamond Bangle",
-       "Description": "Shine bright every day with the sleek beauty of this bangle crafted in 18 karat rose gold, studded with diamonds. Stone Clarity: SI2.",
-       "Type": "Bangle",
-       "Weight": "14.087 g",
-       "Price":177939 ,
-       "DiscountPrice":175999,
-       "Img": [
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw578489f8/images/hi-res/50D3B3VKM1A02_1.jpg?sw=115&sh=115",
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwf0df8565/images/hi-res/50D3B3VKM1A02_2.jpg?sw=115&sh=115" 
-       ],
-       "Brand": "Tanishq"
-     },
-  {
-       "id": 21,
-       "Title": "Alluring Beaded Gold Chain",
-       "Description": "Add a timeless allure to your work wear with this beads pattern chain crafted in 18 karat yellow gold.",
-       "Type": "Chain",
-       "Weight": "5.11 g",
-       "Price":32556,
-       "DiscountPrice":31999,
-       "Img": [
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw3883694d/images/hi-res/504025CIRAA00_1.jpg?sw=115&sh=115",
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwbdd485ce/images/hi-res/504025CIRAA00_2.jpg?sw=115&sh=115"
-       ],
-       "Brand": "Tanishq"
-     },
+      "id": 20,
+      "Title": " Sleek Diamond Bangle",
+      "Description": "Shine bright every day with the sleek beauty of this bangle crafted in 18 karat rose gold, studded with diamonds. Stone Clarity: SI2.",
+      "Type": "Bangle",
+      "Weight": "14.087 g",
+      "Price": 177939,
+      "DiscountPrice": 175999,
+      "Img": [
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw578489f8/images/hi-res/50D3B3VKM1A02_1.jpg?sw=115&sh=115",
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwf0df8565/images/hi-res/50D3B3VKM1A02_2.jpg?sw=115&sh=115"
+      ],
+      "Brand": "Tanishq"
+    },
     {
-       "id": 22,
-       "Title": " Bling It On! Sparkling Glamour Chain",
-       "Description": "This blingy chain is crafted in 18 karat yellow gold, featuring a link pattern with dainty ball design in lustrous yellow gold.",
-       "Type": "Chain",
-       "Weight": "19.246 g",
-       "Price":126023,
-       "DiscountPrice":124999,
-       "Img": [
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw0be1b706/images/hi-res/501X19CQHAA00_1.jpg?sw=115&sh=115",
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw3358a1fb/images/hi-res/501X19CQHAA00_3.jpg?sw=115&sh=115"
-        
-       ],
-       "Brand": "Tanishq"
-     },
+      "id": 21,
+      "Title": "Alluring Beaded Gold Chain",
+      "Description": "Add a timeless allure to your work wear with this beads pattern chain crafted in 18 karat yellow gold.",
+      "Type": "Chain",
+      "Weight": "5.11 g",
+      "Price": 32556,
+      "DiscountPrice": 31999,
+      "Img": [
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw3883694d/images/hi-res/504025CIRAA00_1.jpg?sw=115&sh=115",
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwbdd485ce/images/hi-res/504025CIRAA00_2.jpg?sw=115&sh=115"
+      ],
+      "Brand": "Tanishq"
+    },
     {
-       "id": 23,
-       "Title": "Graceful Geometric Gold Chain",
-       "Description":"Classy meets grace in this charming geometric pattern chain crafted in 18 karat yellow gold",
-       "Type": "Chain",
-       "Weight": "6.207 g",
-       "Price":39545,
-       "DiscountPrice":37999,
-       "Img": [
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw9b279841/images/hi-res/504025CIFAA00_1.jpg?sw=115&sh=115",
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw4e855644/images/hi-res/504025CIFAA00_2.jpg?sw=115&sh=115"
-        
-       ],
-       "Brand": "Tanishq"
-     },
+      "id": 22,
+      "Title": " Bling It On! Sparkling Glamour Chain",
+      "Description": "This blingy chain is crafted in 18 karat yellow gold, featuring a link pattern with dainty ball design in lustrous yellow gold.",
+      "Type": "Chain",
+      "Weight": "19.246 g",
+      "Price": 126023,
+      "DiscountPrice": 124999,
+      "Img": [
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw0be1b706/images/hi-res/501X19CQHAA00_1.jpg?sw=115&sh=115",
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw3358a1fb/images/hi-res/501X19CQHAA00_3.jpg?sw=115&sh=115"
+      ],
+      "Brand": "Tanishq"
+    },
     {
-       "id": 24,
-       "Title": "Aesthetic Harmony Mugappu Chain",
-       "Description": "Adorn yourself in the sheer magnificence of this 22 karat yellow gold beaded Mugappu chain, perfect to pair with gold pendant or auspicious thread.",
-       "Type": "Chain",
-       "Weight": "39.673 g",
-       "Price":290537,
-       "DiscountPrice":290999,
-       "Img": [
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw5bc90c5d/images/hi-res/514005CJSOA00_1.jpg?sw=115&sh=115",
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw8041279f/images/hi-res/514005CJSOA00_2.jpg?sw=115&sh=115"
-        
-       ],
-       "Brand": "Tanishq"
-     },
+      "id": 23,
+      "Title": "Graceful Geometric Gold Chain",
+      "Description": "Classy meets grace in this charming geometric pattern chain crafted in 18 karat yellow gold",
+      "Type": "Chain",
+      "Weight": "6.207 g",
+      "Price": 39545,
+      "DiscountPrice": 37999,
+      "Img": [
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw9b279841/images/hi-res/504025CIFAA00_1.jpg?sw=115&sh=115",
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw4e855644/images/hi-res/504025CIFAA00_2.jpg?sw=115&sh=115"
+      ],
+      "Brand": "Tanishq"
+    },
     {
-       "id": 25,
-       "Title": "Glamorous Beaded Chain",
-       "Description": "Add a splash of glamour to your style with this beaded chain crafted in 22 karat yellow gold.",
-       "Type": "Chain",
-       "Weight": "8.07 g",
-       "Price":61593,
-       "DiscountPrice":59799,
-       "Img": [
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw3f35b42f/images/hi-res/51D3A1COTAA00_1.jpg?sw=115&sh=115",
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwd845a697/images/hi-res/51D3A1COTAA00_2.jpg?sw=115&sh=115"
-        
-       ],
-       "Brand": "Tanishq"
-     },
+      "id": 24,
+      "Title": "Aesthetic Harmony Mugappu Chain",
+      "Description": "Adorn yourself in the sheer magnificence of this 22 karat yellow gold beaded Mugappu chain, perfect to pair with gold pendant or auspicious thread.",
+      "Type": "Chain",
+      "Weight": "39.673 g",
+      "Price": 290537,
+      "DiscountPrice": 290999,
+      "Img": [
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw5bc90c5d/images/hi-res/514005CJSOA00_1.jpg?sw=115&sh=115",
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw8041279f/images/hi-res/514005CJSOA00_2.jpg?sw=115&sh=115"
+      ],
+      "Brand": "Tanishq"
+    },
     {
-       "id": 26,
-       "Title": "Edgy Hollow Gold Chain For Men",
-       "Description": "Small rectangular carved pieces joint with small links to give an elaborate stylish look to this Chain for Men crafted in 22 Karat Yellow Gold.",
-       "Type": "Chain For Men",
-       "Weight": "22.616 g",
-       "Price":176805,
-       "DiscountPrice":175000,
-       "Img": [
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwc4d0e0bd/images/hi-res/51F1KPCAAAA00_1.jpg?sw=115&sh=115",
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw630077cf/images/hi-res/51F1KPCAAAA00_2.jpg?sw=115&sh=115"
-        
-       ],
-       "Brand": "Tanishq"
-     },
+      "id": 25,
+      "Title": "Glamorous Beaded Chain",
+      "Description": "Add a splash of glamour to your style with this beaded chain crafted in 22 karat yellow gold.",
+      "Type": "Chain",
+      "Weight": "8.07 g",
+      "Price": 61593,
+      "DiscountPrice": 59799,
+      "Img": [
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw3f35b42f/images/hi-res/51D3A1COTAA00_1.jpg?sw=115&sh=115",
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwd845a697/images/hi-res/51D3A1COTAA00_2.jpg?sw=115&sh=115"
+      ],
+      "Brand": "Tanishq"
+    },
     {
-       "id": 27,
-       "Title": "Tender Echoes Couple Rings",
-       "Description": "Let the simple designs of these couple rings, crafted in 22 karat yellow gold, echo your charming love!. Comes in a set of 2.",
-       "Type": "Couple Rings",
-       "Weight": "11.264 g",
-       "Price":86318,
-       "DiscountPrice":83000,
-       "Img": [
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw52e33626/images/hi-res/51E2J1FBDAA00_1.jpg?sw=115&sh=115",
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw306ed1e1/images/hi-res/51E2J1FBDAA00_2.jpg?sw=115&sh=115"
-        
-       ],
-       "Brand": "Tanishq"
-     },
+      "id": 26,
+      "Title": "Edgy Hollow Gold Chain For Men",
+      "Description": "Small rectangular carved pieces joint with small links to give an elaborate stylish look to this Chain for Men crafted in 22 Karat Yellow Gold.",
+      "Type": "Chain For Men",
+      "Weight": "22.616 g",
+      "Price": 176805,
+      "DiscountPrice": 175000,
+      "Img": [
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwc4d0e0bd/images/hi-res/51F1KPCAAAA00_1.jpg?sw=115&sh=115",
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw630077cf/images/hi-res/51F1KPCAAAA00_2.jpg?sw=115&sh=115"
+      ],
+      "Brand": "Tanishq"
+    },
     {
-       "id":28,
-       "Title": "Vow to Thee Couple Rings",
-       "Description": "Celebrate the quirks and nuances of your bond with these couple rings, crafted in 22 karat yellow gold! Comes in a set of 2.",
-       "Type": "Couple Rings",
-       "Weight": "10.6 g",
-       "Price":81230,
-       "DiscountPrice":79019,
-       "Img": [
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwa62bb73c/images/hi-res/51E2J1FASAA00_1.jpg?sw=115&sh=115",
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwcc71c3ed/images/hi-res/51E2J1FASAA00_2.jpg?sw=115&sh=115"
-        
-       ],
-       "Brand": "Tanishq"
-     },
+      "id": 27,
+      "Title": "Tender Echoes Couple Rings",
+      "Description": "Let the simple designs of these couple rings, crafted in 22 karat yellow gold, echo your charming love!. Comes in a set of 2.",
+      "Type": "Couple Rings",
+      "Weight": "11.264 g",
+      "Price": 86318,
+      "DiscountPrice": 83000,
+      "Img": [
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw52e33626/images/hi-res/51E2J1FBDAA00_1.jpg?sw=115&sh=115",
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw306ed1e1/images/hi-res/51E2J1FBDAA00_2.jpg?sw=115&sh=115"
+      ],
+      "Brand": "Tanishq"
+    },
     {
-       "id": 29,
-       "Title": "Say Yes! Couple Rings",
-       "Description": "Say 'yes' today with these charming couple rings, crafted in 22 karat yellow gold. Comes in a set of 2.",
-       "Type": "Couple Rings",
-       "Weight": "12.192 g",
-       "Price":93430,
-       "DiscountPrice":91999,
-       "Img": [
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwdb71d47f/images/hi-res/51E2J1FAVAA00_2.jpg?sw=115&sh=115",
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwdb71d47f/images/hi-res/51E2J1FAVAA00_2.jpg?sw=115&sh=115"
- 
-       ],
-       "Brand": "Tanishq"
-     },
+      "id": 28,
+      "Title": "Vow to Thee Couple Rings",
+      "Description": "Celebrate the quirks and nuances of your bond with these couple rings, crafted in 22 karat yellow gold! Comes in a set of 2.",
+      "Type": "Couple Rings",
+      "Weight": "10.6 g",
+      "Price": 81230,
+      "DiscountPrice": 79019,
+      "Img": [
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwa62bb73c/images/hi-res/51E2J1FASAA00_1.jpg?sw=115&sh=115",
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwcc71c3ed/images/hi-res/51E2J1FASAA00_2.jpg?sw=115&sh=115"
+      ],
+      "Brand": "Tanishq"
+    },
     {
-       "id": 30,
-       "Title": "Bonfire Hearts Couple Rings",
-       "Description": "Engulf in the flames of love and romance with these elegant couple rings, crafted in 22 karat yellow gold. Comes in a set of 2.",
-       "Type": "Couple Rings",
-       "Weight": "11.024 g",
-       "Price":84479,
-       "DiscountPrice":82299,
-       "Img": [
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw3c576763/images/hi-res/51E2J1FBCAC00_1.jpg?sw=115&sh=115",
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw66568aa9/images/hi-res/51E2J1FBCAC00_2.jpg?sw=115&sh=115"
-        
-       ],
-       "Brand": "Tanishq"
-     },
+      "id": 29,
+      "Title": "Say Yes! Couple Rings",
+      "Description": "Say 'yes' today with these charming couple rings, crafted in 22 karat yellow gold. Comes in a set of 2.",
+      "Type": "Couple Rings",
+      "Weight": "12.192 g",
+      "Price": 93430,
+      "DiscountPrice": 91999,
+      "Img": [
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwdb71d47f/images/hi-res/51E2J1FAVAA00_2.jpg?sw=115&sh=115",
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwdb71d47f/images/hi-res/51E2J1FAVAA00_2.jpg?sw=115&sh=115"
+      ],
+      "Brand": "Tanishq"
+    },
     {
-       "id":31,
-       "Title": "Bonfire Hearts Couple Rings",
-       "Description": "Engulf in the flames of love and romance with these elegant couple rings, crafted in 22 karat yellow gold. Comes in a set of 2.",
-       "Type": "Couple Rings",
-       "Weight": "11.024 g",
-       "Price":84479,
-       "DiscountPrice":81499,
-       "Img": [
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw3c576763/images/hi-res/51E2J1FBCAC00_1.jpg?sw=115&sh=115",
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw66568aa9/images/hi-res/51E2J1FBCAC00_2.jpg?sw=115&sh=115"
-         
-       ],
-       "Brand": "Tanishq"
-     },
+      "id": 30,
+      "Title": "Bonfire Hearts Couple Rings",
+      "Description": "Engulf in the flames of love and romance with these elegant couple rings, crafted in 22 karat yellow gold. Comes in a set of 2.",
+      "Type": "Couple Rings",
+      "Weight": "11.024 g",
+      "Price": 84479,
+      "DiscountPrice": 82299,
+      "Img": [
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw3c576763/images/hi-res/51E2J1FBCAC00_1.jpg?sw=115&sh=115",
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw66568aa9/images/hi-res/51E2J1FBCAC00_2.jpg?sw=115&sh=115"
+      ],
+      "Brand": "Tanishq"
+    },
     {
-       "id": 32,
-       "Title": "Inspiring Rajasthani Jaalar Necklace",
-       "Description": "Minute rawa work and musical ghunghroos make this unique 22 karat yellow gold Rajasthani Jaalar Necklace the crown of your wedding attire.",
-       "Type": "Necklace",
-       "Weight": "36.553 g",
-       "Price":289149,
-       "DiscountPrice":285149,
-       "Img": [
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw16bd553c/images/hi-res/511072NLAAA00_1.jpg?sw=640&sh=640",
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw16bd553c/images/hi-res/511072NLAAA00_1.jpg?sw=640&sh=640"
-         
-       ],
-       "Brand": "Tanishq"
-     },
+      "id": 31,
+      "Title": "Bonfire Hearts Couple Rings",
+      "Description": "Engulf in the flames of love and romance with these elegant couple rings, crafted in 22 karat yellow gold. Comes in a set of 2.",
+      "Type": "Couple Rings",
+      "Weight": "11.024 g",
+      "Price": 84479,
+      "DiscountPrice": 81499,
+      "Img": [
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw3c576763/images/hi-res/51E2J1FBCAC00_1.jpg?sw=115&sh=115",
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw66568aa9/images/hi-res/51E2J1FBCAC00_2.jpg?sw=115&sh=115"
+      ],
+      "Brand": "Tanishq"
+    },
     {
-       "id": 33,
-       "Title": "Royal Poila Boishakh Gold Patihar",
-       "Description": "Take your traditional Bengali trousseau to extraordinary heights with this stunning Necklace crafted in 22 Karat Yellow Gold with a chillai finish..",
-       "Type": "Gold Patihar",
-       "Weight": "36.553 g",
-       "Price":425727,
-       "DiscountPrice":417099,
-       "Img": [
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw7731bded/images/hi-res/51W2PBNGFAA00.jpg?sw=115&sh=115",
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwf33c093a/images/hi-res/51W2PBNGFAA00_1.jpg?sw=115&sh=115"
-        
-       ],
-       "Brand": "Tanishq"
-     },
+      "id": 32,
+      "Title": "Inspiring Rajasthani Jaalar Necklace",
+      "Description": "Minute rawa work and musical ghunghroos make this unique 22 karat yellow gold Rajasthani Jaalar Necklace the crown of your wedding attire.",
+      "Type": "Necklace",
+      "Weight": "36.553 g",
+      "Price": 289149,
+      "DiscountPrice": 285149,
+      "Img": [
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw16bd553c/images/hi-res/511072NLAAA00_1.jpg?sw=640&sh=640",
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw16bd553c/images/hi-res/511072NLAAA00_1.jpg?sw=640&sh=640"
+      ],
+      "Brand": "Tanishq"
+    },
     {
-       "id": 34,
-       "Title": "Surreal Floral Gold Necklace Patihar",
-       "Description": "Be Poila Boishakh ready with the charm and grace of this necklace masterfully crafted in 22 Karat Yellow Gold in a Bengali traditional design..",
-       "Type": "Necklace Patihar",
-       "Weight": "23.2 g",
-       "Price":303005,
-       "DiscountPrice":300005,
-       "Img": [
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw88bc806c/images/hi-res/512520NHDAA00.jpg?sw=115&sh=115",
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw77468df4/images/hi-res/512520NHDAA00_1.jpg?sw=115&sh=115"
-         
-       ],
-       "Brand": "Tanishq"
-     },
+      "id": 33,
+      "Title": "Royal Poila Boishakh Gold Patihar",
+      "Description": "Take your traditional Bengali trousseau to extraordinary heights with this stunning Necklace crafted in 22 Karat Yellow Gold with a chillai finish..",
+      "Type": "Gold Patihar",
+      "Weight": "36.553 g",
+      "Price": 425727,
+      "DiscountPrice": 417099,
+      "Img": [
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw7731bded/images/hi-res/51W2PBNGFAA00.jpg?sw=115&sh=115",
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwf33c093a/images/hi-res/51W2PBNGFAA00_1.jpg?sw=115&sh=115"
+      ],
+      "Brand": "Tanishq"
+    },
     {
-       "id": 35,
-       "Title": "Rings of Wonder 18KT Necklace",
-       "Description": "Prepare to orbit in style with our Rings of Wonder 18KT Necklace! Unlike Saturn we didn't need a cosmic tailor but we did draw inspiration from the ringed planets of our solar system to craft this stunning masterpiece.",
-       "Type": "Necklace",
-       "Weight": "5.755 g",
-       "Price":37247,
-       "DiscountPrice":35211,
-       "Img": [
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw4f3d347f/images/hi-res/2923NFD_1.jpg?sw=115&sh=115",
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwa3d6f2a2/images/hi-res/2923NFD_2.jpg?sw=115&sh=115"
-       ],
-       "Brand": "Tanishq"
-     },
+      "id": 34,
+      "Title": "Surreal Floral Gold Necklace Patihar",
+      "Description": "Be Poila Boishakh ready with the charm and grace of this necklace masterfully crafted in 22 Karat Yellow Gold in a Bengali traditional design..",
+      "Type": "Necklace Patihar",
+      "Weight": "23.2 g",
+      "Price": 303005,
+      "DiscountPrice": 300005,
+      "Img": [
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw88bc806c/images/hi-res/512520NHDAA00.jpg?sw=115&sh=115",
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw77468df4/images/hi-res/512520NHDAA00_1.jpg?sw=115&sh=115"
+      ],
+      "Brand": "Tanishq"
+    },
     {
-       "id": 36,
-       "Title": "Fun Pegs Necklace for Kids",
-       "Description": "Add fun to your little one's outfit with this shapes and peg pattern necklace crafted in 22 karat yellow gold, with red blue and green enamel.",
-       "Type": "Necklace ",
-       "Weight": "4.968 g",
-       "Price":39299,
-       "DiscountPrice":36299,
-       "Img": [
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw6fb0ac38/images/hi-res/51F2KCNBDAA00.jpg?sw=115&sh=115",
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw41fe7073/images/hi-res/51F2KCNBDAA00_1.jpg?sw=115&sh=115"
-        
-       ],
-       "Brand": "Tanishq"
-     },
+      "id": 35,
+      "Title": "Rings of Wonder 18KT Necklace",
+      "Description": "Prepare to orbit in style with our Rings of Wonder 18KT Necklace! Unlike Saturn we didn't need a cosmic tailor but we did draw inspiration from the ringed planets of our solar system to craft this stunning masterpiece.",
+      "Type": "Necklace",
+      "Weight": "5.755 g",
+      "Price": 37247,
+      "DiscountPrice": 35211,
+      "Img": [
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw4f3d347f/images/hi-res/2923NFD_1.jpg?sw=115&sh=115",
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwa3d6f2a2/images/hi-res/2923NFD_2.jpg?sw=115&sh=115"
+      ],
+      "Brand": "Tanishq"
+    },
     {
-       "id": 37,
-       "Title": "Gilded Elegance Emerald Stud Earrings",
-       "Description": "Elegance finds a new form in these Gilded Elegance Emerald Stud Earrings, crafted from 22 Karat yellow gold.",
-       "Type": "Earrings",
-       "Weight": "5.044 g",
-       "Price":72463,
-       "DiscountPrice":70999,
-       "Img": [
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw4d3d4f72/images/hi-res/511721SLVABA11_1.jpg?sw=115&sh=115",
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwc5d0b724/images/hi-res/511721SLVABA11_2.jpg?sw=115&sh=115"
-         
-       ],
-       "Brand": "Tanishq"
-     },
+      "id": 36,
+      "Title": "Fun Pegs Necklace for Kids",
+      "Description": "Add fun to your little one's outfit with this shapes and peg pattern necklace crafted in 22 karat yellow gold, with red blue and green enamel.",
+      "Type": "Necklace ",
+      "Weight": "4.968 g",
+      "Price": 39299,
+      "DiscountPrice": 36299,
+      "Img": [
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw6fb0ac38/images/hi-res/51F2KCNBDAA00.jpg?sw=115&sh=115",
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw41fe7073/images/hi-res/51F2KCNBDAA00_1.jpg?sw=115&sh=115"
+      ],
+      "Brand": "Tanishq"
+    },
     {
-       "id": 38,
-       "Title": "Sparkling Spiral Diamond Bangle",
-       "Description": "Enchant everyone with the dainty gleam of this bangle, crafted in 18 karat rose gold, studded with diamonds. Stone Clarity: SI2.",
-       "Type": "Bangle",
-       "Weight": "8.466 g",
-       "Price":99854,
-       "DiscountPrice":97999,
-       "Img": [
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwb40e5f4b/images/hi-res/50D3B2VPP1A02_1.jpg?sw=115&sh=115",
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw73d288fe/images/hi-res/50D3B2VPP1A02_2.jpg?sw=115&sh=115"
-        
-       ],
-       "Brand": "Tanishq"
-     },
+      "id": 37,
+      "Title": "Gilded Elegance Emerald Stud Earrings",
+      "Description": "Elegance finds a new form in these Gilded Elegance Emerald Stud Earrings, crafted from 22 Karat yellow gold.",
+      "Type": "Earrings",
+      "Weight": "5.044 g",
+      "Price": 72463,
+      "DiscountPrice": 70999,
+      "Img": [
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw4d3d4f72/images/hi-res/511721SLVABA11_1.jpg?sw=115&sh=115",
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwc5d0b724/images/hi-res/511721SLVABA11_2.jpg?sw=115&sh=115"
+      ],
+      "Brand": "Tanishq"
+    },
     {
-       "id": 39,
-       "Title": "Hexagonal Diamond Bangle",
-       "Description": "Add a dash of glamour to your work style with this bangle crafted in 18 karat rose gold, studded with diamonds. Stone Clarity: SI2.",
-       "Type": "Bangle",
-       "Weight": "11.123 g",
-       "Price":171069,
-       "DiscountPrice":169069,
-       "Img": [
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwad5dfd89/images/hi-res/50D3B2VQB1A02_1.jpg?sw=115&sh=115",
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw06d31201/images/hi-res/50D3B2VQB1A02_2.jpg?sw=115&sh=115"
-        
-       ],
-       "Brand": "Tanishq"
-     },
+      "id": 38,
+      "Title": "Sparkling Spiral Diamond Bangle",
+      "Description": "Enchant everyone with the dainty gleam of this bangle, crafted in 18 karat rose gold, studded with diamonds. Stone Clarity: SI2.",
+      "Type": "Bangle",
+      "Weight": "8.466 g",
+      "Price": 99854,
+      "DiscountPrice": 97999,
+      "Img": [
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwb40e5f4b/images/hi-res/50D3B2VPP1A02_1.jpg?sw=115&sh=115",
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw73d288fe/images/hi-res/50D3B2VPP1A02_2.jpg?sw=115&sh=115"
+      ],
+      "Brand": "Tanishq"
+    },
     {
-       "id": 40,
-       "Title": "Delicate Openable Bangle",
-       "Description": "Dainty yet full of charm, this openable bangle is crafted in 18 karat rose gold, studded with diamonds. Stone Clarity: I1/I2.",
-       "Type": "Bangle",
-       "Weight": "9.086 g",
-       "Price":62612,
-       "DiscountPrice":60699,
-       "Img": [
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwbfc1bea2/images/hi-res/50D3I1VVC1A09_1.jpg?sw=115&sh=115",
-         "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw908295e6/images/hi-res/50D3I1VVC1A09_2.jpg?sw=115&sh=115"
-       ],
-       "Brand": "Tanishq"
-     }
- ]
+      "id": 39,
+      "Title": "Hexagonal Diamond Bangle",
+      "Description": "Add a dash of glamour to your work style with this bangle crafted in 18 karat rose gold, studded with diamonds. Stone Clarity: SI2.",
+      "Type": "Bangle",
+      "Weight": "11.123 g",
+      "Price": 171069,
+      "DiscountPrice": 169069,
+      "Img": [
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwad5dfd89/images/hi-res/50D3B2VQB1A02_1.jpg?sw=115&sh=115",
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw06d31201/images/hi-res/50D3B2VQB1A02_2.jpg?sw=115&sh=115"
+      ],
+      "Brand": "Tanishq"
+    },
+    {
+      "id": 40,
+      "Title": "Delicate Openable Bangle",
+      "Description": "Dainty yet full of charm, this openable bangle is crafted in 18 karat rose gold, studded with diamonds. Stone Clarity: I1/I2.",
+      "Type": "Bangle",
+      "Weight": "9.086 g",
+      "Price": 62612,
+      "DiscountPrice": 60699,
+      "Img": [
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwbfc1bea2/images/hi-res/50D3I1VVC1A09_1.jpg?sw=115&sh=115",
+        "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw908295e6/images/hi-res/50D3I1VVC1A09_2.jpg?sw=115&sh=115"
+      ],
+      "Brand": "Tanishq"
+    }
+  ]
 }

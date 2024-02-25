@@ -191,7 +191,7 @@
         ).innerText = `Price: ₹${product.Price}`;
         document.getElementById("productDescription").innerText =
           product.Description;
-        document.getElementById("productImage").src = product.Image;
+        document.getElementById("productImage").src = product.Img[0];
         document.getElementById("productImage").alt = product.Title;
 
         // Display the weight
@@ -201,15 +201,22 @@
         addToCartButton.addEventListener("click", () => {
           let cartItem = JSON.parse(localStorage.getItem("cartItem")) || [];
           cartItem.push({
-            id: product.id,
-            title: product.Title,
-            price: product.Price,
-            quantity: parseInt(document.getElementById("quantity").value),
+            // id: product.id,
+            Title: product.Title,
+            Description: product.Discription,
+            Type: product.Type,
+            Weight: product.Weight,        
+            Price: product.Price,
+            DiscountPrice: product.DiscountPrice,
+            Img: product.Img,
+            Brand: product.Brand,
+            // quantity: parseInt(document.getElementById("quantity").value),
           });
           localStorage.setItem("cartItem", JSON.stringify(cartItem));
           alert("Item added to cart!");
         });
       }
+      
 
       displayProductDetails();
     </script>
