@@ -147,12 +147,127 @@
     }
 
 
-.EXplore img {
+    .EXplore img {
     width: 98%; 
     height: 80vh; 
     border-radius: 20px;
 
-}
+    }
+    
+    
+    @media all and (max-width:375px) {
+        .Nav_Logo{
+            display: none;
+        }
+        .Caty{
+            display: grid;
+            grid-template-areas: "b1 b6 b7";
+        }
+        .Caty  div:nth-child(1){
+        grid-area: b1;
+       }
+       .Caty div:nth-child(2){
+        grid-area: b2;
+        display: none;
+       }
+       .Caty div:nth-child(3){
+        grid-area: b3;
+        display: none;
+       }
+       .Caty div:nth-child(4){
+        grid-area: b4;
+        display: none;
+       }
+       .Caty div:nth-child(5){
+        grid-area: b5;
+        display: none;
+       }
+       .Caty div:nth-child(6){
+        grid-area: b6;
+        
+       }
+       .Caty div:nth-child(7){
+        grid-area: b7;
+        
+       }
+       .DRCTBTN{
+        display: grid;
+        grid-template-areas: "a1"
+                            " ."
+                            " ."
+                            "a2"
+                            " ."
+                            " ."
+                            "a3"
+                            " ."
+                            " ."
+                            "a4"
+                            " ."
+                            " .";
+       }
+       .DRCTBTN button:nth-child(1) {
+            grid-area: a1;
+       }
+       .DRCTBTN button:nth-child(2) {
+            grid-area: a2;
+       }
+       .DRCTBTN button:nth-child(3) {
+            grid-area: a3;
+       }
+       .DRCTBTN button:nth-child(4) {
+            grid-area: a4;
+       }
+       .SRCH{
+        display: none;
+       }
+       .phot {
+        display: grid;
+        grid-template-areas: "c1" "c2"
+                            "c3" "c4"
+                            "c5" "c6"
+                            "c7" "c8"
+                            "c9" "c10";
+       }
+       .phot  div:nth-child(1){
+        grid-area: c1;
+       }
+       .phot div:nth-child(2){
+        grid-area: c2;
+        
+       }
+       .phot div:nth-child(3){
+        grid-area: c3;
+        
+       }
+       .phot div:nth-child(4){
+        grid-area: c4;
+        
+       }
+       .phot div:nth-child(5){
+        grid-area: c5;
+        
+       }
+       .phot div:nth-child(6){
+        grid-area: c6;
+        
+       }
+       .phot div:nth-child(7){
+        grid-area: c7;
+        
+       }
+       .phot div:nth-child(8){
+        grid-area: c8;
+        
+       }
+       .phot div:nth-child(9){
+        grid-area: c9;
+        
+       }
+       .phot div:nth-child(10){
+        grid-area: c10;
+        
+       }
+    }
 
 
     </style>
