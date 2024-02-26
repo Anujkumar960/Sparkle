@@ -34,30 +34,35 @@ document.addEventListener("DOMContentLoaded", function () {
         email: UserEmail.value,
         password: UserPassword.value,
       };
-      const response = await fetch(`https://byte-adept-3456.onrender.com/login`, {
-        method: "POST",
-        headers: {
-          "Content-type": "application/json",
-        },
-        body: JSON.stringify(credentials),
-      });
+      const response = await fetch(
+        `https://byte-adept-3456.onrender.com/login`,
+        {
+          method: "POST",
+          headers: {
+            "Content-type": "application/json",
+          },
+          body: JSON.stringify(credentials),
+        }
+      );
       const data = await response.json();
-      localStorage.setItem("localAccessToken", JSON.stringify(data.accessToken));
+      localStorage.setItem(
+        "localAccessToken",
+        JSON.stringify(data.accessToken)
+      );
       localStorage.setItem("userId", JSON.stringify(data.user));
       console.log(data);
       alert("Successfully logged in");
-       if(data.user.isAdmin==false){
-        window.location.href = `http://localhost:3000/index.html`;
-       }else{
-        window.location.href = `http://127.0.0.1:5500/byte-adept-3456/frontend/admin.html`;
-       }
+      if (data.user.isAdmin == false) {
+        window.location.href = `https://repo-jet-six.vercel.app/`;
+      } else {
+        window.location.href = `https://byte-adept-3456.vercel.app/frontend/index.html`;
+      }
     } catch (error) {
       alert(error.message);
       console.error("Error:", error);
     }
   }
 
-  
   signUpUserButton.addEventListener("click", (e) => {
     e.preventDefault();
     SignUp();
@@ -84,7 +89,10 @@ document.addEventListener("DOMContentLoaded", function () {
       }
 
       const data = await res.json();
-      localStorage.setItem("localAccessToken", JSON.stringify(data.accessToken));
+      localStorage.setItem(
+        "localAccessToken",
+        JSON.stringify(data.accessToken)
+      );
       localStorage.setItem("userId", JSON.stringify(data.user.id));
       window.location.href = `${baseServerURL}/index.html`;
     } catch (error) {
@@ -94,35 +102,34 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
-
-  // async function SignUp() {
-  //   let newObj = {
-  //     name: newUsername.value,
-  //     email: newUserEmail.value,
-  //     password: newUserPassword.value,
-  //     isAdmin: false,
-  //   };
-  //   console.log(newObj);
-  //   try {
-  //     let res = await fetch("https://byte-adept-3456.onrender.com/users", {
-  //       method: "POST",
-  //       headers: {
-  //         "Content-type": "application/json",
-  //       },
-  //       body: JSON.stringify(newObj),
-  //     });
-  //     let data = await res.json();
-  //     console.log(data);
-  //     localStorage.setItem(
-  //       "localAccessToken",
-  //       JSON.stringify(data.accessToken)
-  //     );
-  //     localStorage.setItem("userId", JSON.stringify(data.user.id));
-  //     window.location.href = `${baseServerURL}/index.html`;
-  //   } catch (error) {
-  //     console.log(error);
-  //   }
-  // }
+// async function SignUp() {
+//   let newObj = {
+//     name: newUsername.value,
+//     email: newUserEmail.value,
+//     password: newUserPassword.value,
+//     isAdmin: false,
+//   };
+//   console.log(newObj);
+//   try {
+//     let res = await fetch("https://byte-adept-3456.onrender.com/users", {
+//       method: "POST",
+//       headers: {
+//         "Content-type": "application/json",
+//       },
+//       body: JSON.stringify(newObj),
+//     });
+//     let data = await res.json();
+//     console.log(data);
+//     localStorage.setItem(
+//       "localAccessToken",
+//       JSON.stringify(data.accessToken)
+//     );
+//     localStorage.setItem("userId", JSON.stringify(data.user.id));
+//     window.location.href = `${baseServerURL}/index.html`;
+//   } catch (error) {
+//     console.log(error);
+//   }
+// }
 // });
 
 // // Login Page JS Ends here
@@ -174,16 +181,6 @@ document.addEventListener("DOMContentLoaded", function () {
 //   }
 // });
 
-
-
-
-
-
-
-
-
-
-
 // // --- do not touch  ↓↓↓↓↓↓↓↓↓↓↓↓ ----------
 // // const isDevelopment = window.location.hostname.includes("127.0.0.1");
 // // let baseServerURL = isDevelopment
@@ -202,7 +199,6 @@ document.addEventListener("DOMContentLoaded", function () {
 // // let userId = +localStorage.getItem("userId") || null;
 // // // // const urlAllTodosOfUser = `${baseServerURL}/todos?userId=${userId}`;
 // // // // const urlTodosBase = `${baseServerURL}/todos/`;
-
 
 // // const sign_in_btn = document.querySelector("#sign-in-btn");
 // // const sign_up_btn = document.querySelector("#sign-up-btn");
@@ -224,7 +220,6 @@ document.addEventListener("DOMContentLoaded", function () {
 // // // let newUsername=document.getElementById("Username");
 // // // let UserEmail=document.getElementById("UserEmail");
 // // // let UserPassword=document.getElementById("UserPassword");
-
 
 // // loginUserButton.addEventListener('click', () => {
 // //   logIn();
@@ -285,7 +280,7 @@ document.addEventListener("DOMContentLoaded", function () {
 // // //       "email": UserEmail.value,
 // // //       "password": UserPassword.value,
 // // //     };
-    
+
 // // //     let res = await fetch(userLoginURL, {
 // // //       method: "POST",
 // // //       headers: {
@@ -322,8 +317,6 @@ document.addEventListener("DOMContentLoaded", function () {
 // // //   }
 // // // }
 
-
-
 // // async function SignUp() {
 // //   try {
 // //     let obj = {
@@ -332,7 +325,7 @@ document.addEventListener("DOMContentLoaded", function () {
 // //       "password":newUserPassword.value,
 // //       "isAdmin":false
 // //     };
-    
+
 // //     let res = await fetch(userRegisterURL, {
 // //       method: "POST",
 // //       headers: {
@@ -350,11 +343,6 @@ document.addEventListener("DOMContentLoaded", function () {
 // //     SignUp();
 // //   })
 
-
-  
-
-
-  
 // // // // --- do not touch  ↓↓↓↓↓↓↓↓↓↓↓↓ ----------
 // // // const isDevelopment = window.location.hostname.includes("127.0.0.1");
 // // // let baseServerURL = isDevelopment
@@ -373,7 +361,6 @@ document.addEventListener("DOMContentLoaded", function () {
 // // // let userId = +localStorage.getItem("userId") || null;
 // // // // // const urlAllTodosOfUser = `${baseServerURL}/todos?userId=${userId}`;
 // // // // // const urlTodosBase = `${baseServerURL}/todos/`;
-
 
 // // // const sign_in_btn = document.querySelector("#sign-in-btn");
 // // // const sign_up_btn = document.querySelector("#sign-up-btn");
@@ -395,7 +382,6 @@ document.addEventListener("DOMContentLoaded", function () {
 // // // let newUsername=document.getElementById("Username");
 // // // let UserEmail=document.getElementById("UserEmail");
 // // // let UserPassword=document.getElementById("UserPassword");
-
 
 // // // loginUserButton.addEventListener('click', () => {
 // // //   logIn();
@@ -456,7 +442,7 @@ document.addEventListener("DOMContentLoaded", function () {
 // // // //       "email": UserEmail.value,
 // // // //       "password": UserPassword.value,
 // // // //     };
-    
+
 // // // //     let res = await fetch(userLoginURL, {
 // // // //       method: "POST",
 // // // //       headers: {
@@ -493,8 +479,6 @@ document.addEventListener("DOMContentLoaded", function () {
 // // // //   }
 // // // // }
 
-
-
 // // // async function SignUp() {
 // // //   try {
 // // //     let obj = {
@@ -503,7 +487,7 @@ document.addEventListener("DOMContentLoaded", function () {
 // // //       "password":newUserPassword.value,
 // // //       "isAdmin":false
 // // //     };
-    
+
 // // //     let res = await fetch(userRegisterURL, {
 // // //       method: "POST",
 // // //       headers: {
@@ -520,6 +504,3 @@ document.addEventListener("DOMContentLoaded", function () {
 // // //   signUpUserButton.addEventListener("click",()=>{
 // // //     SignUp();
 // // //   })
-
-
-  
