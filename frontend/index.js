@@ -10,7 +10,7 @@ async function loadFetchdata() {
   if (isLoading) return;
   isLoading = true;
 
-  let url = `https://byte-adept-3456.onrender.com/products?_page=${page}&_limit=${perPage}`;
+  let url = `http://localhost:4000/products?_page=${page}&_limit=${perPage}`;
 
   try {
     let res = await fetch(url);
