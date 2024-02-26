@@ -68,7 +68,8 @@ function createCard(item,index){
     let btnDiv = document.createElement("div")
     let removeBtn = document.createElement("button")
     let wishlistBtn = document.createElement("button")
-    let deleteBtnImg = document.createElement("img")
+    let deleteBtnImg = document.createElement("img");
+   
     let wishlistBtnImg = document.createElement("img")
     
    let removeText=document.createElement("span")
@@ -81,7 +82,7 @@ function createCard(item,index){
 
    wishlistBtnImg.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSopDlBSysFDR5v0Q1cmILZP32wPrJKO8tGzY-ta6jtrw&s"
     wishlistBtnImg.className = "wishlistBtnImg"
-   deleteBtnImg.src="https://www.iconsdb.com/icons/preview/brown/trash-9-xxl.png"
+    deleteBtnImg.src="https://www.flaticon.com/free-icon/bin_9790368"
     deleteBtnImg.className = "deleteBtnImg"
     img.src = item.Img;
     img.className = "cartImage"
@@ -122,7 +123,7 @@ function createCard(item,index){
     });
 
     
-    removeBtn.append(deleteBtnImg,removeText)
+    removeBtn.append(removeText)
     wishlistBtn.append(wishlistBtnImg,wishlistText)
     btnDiv.append(removeBtn,borderLineBtn,wishlistBtn)
     detailsDiv.append(title,weight,price,btnDiv)
