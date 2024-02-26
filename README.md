@@ -1,4 +1,4 @@
-# This repository is for construct week project for course JS201 batch ft30.
+# This repository is for construct week project for course JS204 batch ft30.
 
 ## Team Name :- byte-adept-3456
 <hr style="border: 1px solid black">
