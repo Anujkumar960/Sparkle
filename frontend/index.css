@@ -352,6 +352,7 @@ gap: 10%;
 }
 .footer_styling{
     margin-top: 25%;
+    
 }
 .footer_styling a :hover{
     text-decoration: underline;
@@ -359,7 +360,7 @@ gap: 10%;
 #footer_styling_boxs a{
     display: flex;
     text-decoration: none;
-    color: black;
+    color: rgb(8, 8, 8);
     /* width: 80%; */
 } 
 /* #footer_styling_boxs a:hover{
