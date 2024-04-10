@@ -49,7 +49,7 @@
 
 - Implement Admin Authrization functionality.
 
-- Project tracker https://byte-adept-3456.vercel.app/frontend/index.html
+- Project tracker https://sparkle-clone.netlify.app
 
 - Few Images of Our Website
 
