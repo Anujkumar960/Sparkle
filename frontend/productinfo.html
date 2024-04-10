@@ -696,18 +696,25 @@
     <script>
       const urlParams = new URLSearchParams(window.location.search);
       const productId = urlParams.get("id");
-
-      async function fetchProductDetails(productId) {
+      // let id = JSON.parse(localStorage.getItem("id"))
+      // console.log(id)
+      async function fetchProductDetails(id) {
         const response = await fetch(
-          `http://localhost:4000/products/${productId}`
+          `https://byte-adept-3456.onrender.com/products/${id}`
         );
         const product = await response.json();
+        console.log(product)
         return product;
+        
       }
 
       async function displayProductDetails() {
-        const product = await fetchProductDetails(productId);
-
+        let id = JSON.parse(localStorage.getItem("id"))
+        console.log(id)
+        const product = await fetchProductDetails(id);
+        // console.log(product)
+        // console.log(product.Price);
+       // console.log( product.Weight ,product.Img[0])
         document.title = product.Title;
         document.getElementById("productName").innerText = product.Title;
         document.getElementById(
@@ -716,6 +723,8 @@
         document.getElementById("productDescription").innerText =
           product.Description;
         document.getElementById("productImage").src = product.Img[0];
+       // let temp=product.Img[0]
+       // console.log(temp)
         document.getElementById("productImage").alt = product.Title;
 
         // Display the weight

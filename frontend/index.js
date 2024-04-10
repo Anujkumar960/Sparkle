@@ -97,7 +97,14 @@ function card_creator(element) {
 
   // Add event listener to navigate to productinfo.html on button click
   button.addEventListener("click", () => {
-    window.location.href = `productinfo.html?id=${element.id}`;
+    let id = JSON.parse(localStorage.getItem("id"))
+    id=element.id
+    localStorage.setItem("id",JSON.stringify(id));
+    if (element) {
+      window.location.href = `productinfo.html?id=${element.id}`;
+      
+   }
+    console.log(element.id)
   });
 
   card_action.append(button);
