@@ -75,8 +75,8 @@
 
 ## In order to be able to access the Admin Dashboard, enter these credentials in the Login Page :
 
-"username": "Mohan82"
-"password":"Admin@17823"
+- username: Mohan82
+- password:Admin@17823
 
 ## Technology Stack
 
